@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Reversi
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Imagine a way to feed your experiments from API or local config
+        let experiments = ["text_variation", "button_variation", "combined_variation"]
+        ReversiService.shared.configure(with: experiments)
+        
+        
         return true
     }
 

@@ -1,0 +1,16 @@
+PODS:
+  - Reversi (0.1.0)
+
+DEPENDENCIES:
+  - Reversi (from `../`)
+
+EXTERNAL SOURCES:
+  Reversi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Reversi: 211dee1334700e516ad0be5920ecc364d6807196
+
+PODFILE CHECKSUM: 47e00d0c00a74c17f79d3b0147b1990d46a40138
+
+COCOAPODS: 1.6.0

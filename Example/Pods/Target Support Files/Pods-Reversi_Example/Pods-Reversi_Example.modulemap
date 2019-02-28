@@ -1,0 +1,6 @@
+framework module Pods_Reversi_Example {
+  umbrella header "Pods-Reversi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
