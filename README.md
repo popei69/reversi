@@ -24,6 +24,7 @@ label.text = "Hello World"
 label.font = UIFont.boldSystemFont(ofSize: 15)
 label.textColor = .darkGray
 
+// will be executed only if "text_variation" experiment is up and running
 label.addVariation("text_variation") { label in
     label.text = "Variation World"
 }
