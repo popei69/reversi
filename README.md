@@ -14,12 +14,12 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 * Feature flags and A/B testing tools are designed for Product Marketers and Managers and forgot to be _developer friendly_. Adding A/B testing or feature flag should be as easy as setting up any properties.
 * Choose your service, keep your data. Reversi doesn't handle data, it should be designed to work with bundled file as well as remote services. You'll only inject your experiments at launch, Reversi will handle the display.
 
-## What does it work?
+## How does it work?
 
 Reversi includes variations and will execute only the one included in the running experiments.
 The key designed the unique identifier to that experiment.
 
-```
+```swift
 label.text = "Hello World"
 label.font = UIFont.boldSystemFont(ofSize: 15)
 label.textColor = .darkGray
@@ -31,8 +31,7 @@ label.addVariation("text_variation") { label in
 
 There is no limit to the number of variations and their access
 
-```
-
+```swift
 label
     .addVariation("text_variation") { label in
         label.text = "Variation World"
@@ -51,7 +50,7 @@ self.addVariation("combined_variation") { viewController in
 }
 ```
 
-Since each experiment directly affects UI elements, block execution is main only on main thread.
+Since each experiment directly affects UI elements, varations are only executed on main thread.
 
 ## TODO
 
