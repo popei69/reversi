@@ -20,13 +20,18 @@ Reversi includes variations and will execute only the one included in the runnin
 The key designed the unique identifier to that experiment.
 
 ```swift
+// imagine local or remote configuration
+let config = [["key": "text_variation", "value": "Hello Variation World"], ...]
+ReversiService.shared.configure(with: config)
+
+
 label.text = "Hello World"
 label.font = UIFont.boldSystemFont(ofSize: 15)
 label.textColor = .darkGray
 
 // will be executed only if "text_variation" experiment is up and running
-label.addVariation("text_variation") { label in
-    label.text = "Variation World"
+label.addVariation("text_variation") { label, value in
+    label.text = value // "Hello Variation World"
 }
 ```
 
@@ -56,7 +61,7 @@ Since each experiment directly affects UI elements, varations are only executed 
 ## TODO
 
 - [ ] Create a configuration file for bundled experiments
-- [ ] Ability to support variation in value: text color, image url, etc.
+- [ ] Ability to support variation in value: Bool, Int, String, etc.
 - [ ] Ability to support remote configuration
 - [ ] Ability to support amount of users affected per experiment
 
