@@ -1,0 +1,16 @@
+{  
+    "experiments":[  
+        {  
+            "key":"text_variation",
+            "value": true
+        },
+        {  
+            "key":"button_variation",
+            "value": false
+        },
+        {  
+            "key":"combined_variation",
+            "value": true
+        }
+    ]
+}

@@ -35,18 +35,21 @@ class ViewController: UIViewController {
     func addVariations() {
         
         // label color
-        label.addVariation("text_variation") { label in
-            label.text = "Variation World"
+        label.addVariation("text_variation") { label, value in
+            label.isHidden = value
         }
         
         // button color
-        button.addVariation("button_variation") { $0.backgroundColor = .orange }
+        button.addVariation("button_variation") { button, _ in
+            button.backgroundColor = .orange
+        }
           
         // combined elements
-        self.addVariation("combined_variation") { viewController in
+        self.addVariation("combined_variation") { viewController, _ in
             viewController.label.textColor = .lightGray
             viewController.button.setTitleColor(.lightGray, for: .normal)
         }
+        
     }
 
     override func didReceiveMemoryWarning() {

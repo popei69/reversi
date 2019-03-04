@@ -5,25 +5,24 @@
 //  Created by Benoit PASQUIER on 28/02/2019.
 //
 
-public struct Variation {
-    
+public struct Variation<Value> {
     public let key: String 
-    private let _variationBlock : () -> ()
+    private let _variationBlock : (Value) -> ()
     
-    public init<Type: NSObject>(_ object: Type, key: String, variantOf: @escaping (Type) -> ()) {
+    public init<Type: NSObject>(_ object: Type, key: String, variantOf: @escaping (Type, Value) -> ()) {
         
         weak var weakObject = object
         
         self.key = key
-        self._variationBlock = { 
+        self._variationBlock = { value in
             DispatchQueue.main.async {
                 guard let object = weakObject else { return }
-                variantOf(object)
+                variantOf(object, value)
             }
         }
     }
     
-    public func execute() {
-        self._variationBlock()
+    public func execute(with value: Value) {
+        self._variationBlock(value)
     } 
 }

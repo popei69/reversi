@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Imagine a way to feed your experiments from API or local config
-        let experiments = ["text_variation", "button_variation", "combined_variation"]
-        ReversiService.shared.configure(with: experiments)
+        let configuration = LocalFileConfiguration(from: "LocalConfig")
+        ReversiService.shared.configure(with: configuration)
         
         
         return true
