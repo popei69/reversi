@@ -12,8 +12,8 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 ## Content
 
  - [The goal of Reversi](#the-goal-of-reversi)
- - [Why Reversi?](#why-reversi-)
- - [How does it work?](#how-does-it-work-)
+ - [Why Reversi?](#why-reversi)
+ - [How does it work?](#how-does-it-work)
  - [Usage](#usage)
  - [Installation](#installation)
  - [Example](#example)
@@ -123,8 +123,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## State of the project
 
-- [ ] Create a configuration file for bundled experiments
-- [ ] Ability to support variation in value: Bool, Int, String, etc.
+- [x] Create a configuration file for bundled experiments
+- [x] Ability to support variation in value: Bool, Int, String.
 - [ ] Ability to support remote configuration
 - [ ] Ability to support amount of users affected per experiment
 
