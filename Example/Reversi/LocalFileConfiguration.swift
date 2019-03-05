@@ -10,10 +10,22 @@ import Foundation
 import Reversi
 
 class LocalFileConfiguration : ReversiConfigurationProtocol {
-    var experiments: [String : String]
+    var experiments: [String : Any]
     
     init(from fileName: String) {
-        self.experiments = FileManager.readDictionaryJson(forResource: fileName) ?? [:]
+        
+        let data = FileManager.readDictionaryJson(forResource: fileName)
+        self.experiments = (data?["experiments"] as? [[String: Any]])
+            .flatMap({ $0 })?
+            .reduce([String: Any](), { (dictionary, experiment) in
+                var nextDic = dictionary
+                if let keyExperiment = experiment["key"] as? String,
+                    let valueExperiment = experiment["value"] {
+                    nextDic[keyExperiment] = valueExperiment
+                }
+                return nextDic
+            }) ?? [:]
+            
     }
 }
 
@@ -35,12 +47,12 @@ extension FileManager {
         return nil
     }
     
-    static func readDictionaryJson(forResource fileName: String) -> [String: String]? {
+    static func readDictionaryJson(forResource fileName: String) -> [String: Any]? {
         
         if let path = Bundle.main.path(forResource: fileName, ofType: "json"){
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: String]
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
             } catch {
                 // handle error
             }

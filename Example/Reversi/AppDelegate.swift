@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Imagine a way to feed your experiments from API or local config
         let configuration = LocalFileConfiguration(from: "LocalConfig")
-        ReversiService.shared.configure(with: configuration)
+        try? ReversiService.shared.configure(with: configuration)
         
         
         return true

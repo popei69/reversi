@@ -2,7 +2,7 @@
     "experiments":[  
         {  
             "key":"text_variation",
-            "value": true
+            "value": false
         },
         {  
             "key":"button_variation",
@@ -10,6 +10,10 @@
         },
         {  
             "key":"combined_variation",
+            "value": true
+        },
+        {  
+            "key":"block_variation",
             "value": true
         }
     ]

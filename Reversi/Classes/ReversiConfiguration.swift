@@ -6,5 +6,5 @@
 //
 
 public protocol ReversiConfigurationProtocol {
-    var experiments : [String : String] { get } 
+    var experiments : [String : Any] { get } 
 }
