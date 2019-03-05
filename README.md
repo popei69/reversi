@@ -13,6 +13,7 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
  - [The goal of Reversi](#the-goal-of-reversi)
  - [Why Reversi?](#why-reversi)
+    - [Apptimize case study](#apptimize)
  - [How does it work?](#how-does-it-work)
  - [Usage](#usage)
  - [Installation](#installation)
@@ -30,6 +31,7 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
 Adding A/B testing or feature flag should be as easy as setting up any properties.
 
+### Apptimize
 __Apptimize before Reversi__
 ```swift
 Apptimize.runTest("Add GuestFlow", withBaseline: { () -> Void in
@@ -55,8 +57,8 @@ useGuestFlow.hidden = false
 // adding variation
 self.addVariation("variation1", ofType: Void.self) { viewController, _ in
     // Variant "Guest Flow"
-    _loginWithGuestButton.isHidden  = true
-    useGuestFlow.hidden = true
+    viewController._loginWithGuestButton.isHidden  = true
+    viewController.useGuestFlow.hidden = true
 }
 ```
 
