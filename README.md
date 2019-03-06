@@ -11,7 +11,6 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
 ## Content
 
- - [The goal of Reversi](#the-goal-of-reversi)
  - [Why Reversi?](#why-reversi)
     - [Apptimize case study](#apptimize)
  - [How does it work?](#how-does-it-work)
@@ -22,14 +21,10 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
  - [State of the project](#state-of-the-project)
 
 
-## The goal of Reversi
-
-* Feature flags and A/B testing tools are designed for Product Marketers and Managers and forgot to be _developer friendly_. Adding A/B testing or feature flag should be as easy as setting up any properties.
-* Choose your service, keep your data. Reversi doesn't handle data, it should be designed to work with bundled file as well as remote services. You'll only inject your experiments at launch, Reversi will handle the display.
-
 ## Why Reversi?
 
-Adding A/B testing or feature flag should be as easy as setting up any properties.
+* Feature flags and A/B testing tools are designed for Product Marketers and Managers and forgot to be _developer friendly_. Adding A/B testing or feature flag should be as easy as setting up any properties.
+* Choose your service, keep your data. Reversi doesn't handle data, it should be designed to work with bundled file as well as remote services. You'll only inject your configuration at launch, Reversi will handle when to run UI variations.
 
 ### Apptimize
 __Apptimize before Reversi__
@@ -92,7 +87,7 @@ label
     .addVariation("text_variation", ofType: String.self) { label, variationText in
         label.text = variationText
     }
-    .addVariation("text_variation", ofType: Void.self) { label, _ in
+    .addVariation("font_variation", ofType: Void.self) { label, _ in
         label.font = UIFont.boldSystemFont(ofSize: 14)
     }
 
@@ -126,7 +121,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## State of the project
 
 - [x] Create a configuration file for bundled experiments
-- [x] Ability to support variation in value: Bool, Int, String.
+- [x] Ability to support variation in value: Void, Bool, Int, String.
 - [ ] Ability to support remote configuration
 - [ ] Ability to support amount of users affected per experiment
 
