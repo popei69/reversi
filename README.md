@@ -29,31 +29,21 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 ### Apptimize
 __Apptimize before Reversi__
 ```swift
-Apptimize.runTest("Add GuestFlow", withBaseline: { () -> Void in
-    // Baseline variant "original"
-    _loginWithGuestButton.isHidden = false
-    useGuestFlow.hidden = false
-}, andApptimizeCodeBlocks: [
-    ApptimizeCodeBlock(name: "variation1") {
-        // Variant "Guest Flow"
-        _loginWithGuestButton.isHidden  = true
-        useGuestFlow.hidden = true
-    }]
-)
+if (Apptimize.isFeatureFlagOn("new_feature_flag_variable")) {
+   // ON
+   myObject.customVariant()
+} else {
+   // OFF
+   myObject.defaultVariant()
+}
 ```
 
 __Apptimize with Reversi__
 
 ```swift
-// default setup
-_loginWithGuestButton.isHidden = false
-useGuestFlow.hidden = false
-
-// adding variation
-self.addVariation("variation1", ofType: Void.self) { viewController, _ in
-    // Variant "Guest Flow"
-    viewController._loginWithGuestButton.isHidden  = true
-    viewController.useGuestFlow.hidden = true
+myObject.defaultVariant()
+myObject.addFeatureFlag("new_feature_flag_variable"{ object in
+    object.customVariant()
 }
 ```
 
@@ -65,16 +55,16 @@ Reversi includes variations and will execute only the one included in the runnin
 The key designed the unique identifier to that experiment.
 
 ```swift
-// imagine local or remote configuration
+// feed your configuration to the service
 let config = [["key": "text_variation", "value": "Hello Variation World"], ...]
-ReversiService.shared.configure(with: config)
+ReversiService.shared.configure(with: configuration)
 
 label.text = "Hello World"
 label.font = UIFont.boldSystemFont(ofSize: 15)
 label.textColor = .darkGray
 
-// will be executed only if "text_variation" experiment is up and running
-label.addVariation("text_variation", ofType: String.self) { label, value in
+// block will be executed only if "text_variation" experiment is up and running
+label.addVariation("text_variation", for: String.self) { label, value in
     label.text = value // "Hello Variation World"
 }
 ```
@@ -85,26 +75,26 @@ There is no limit to the number of variations and their access
 
 ```swift
 label
-    .addVariation("text_variation", ofType: String.self) { label, variationText in
+    label.addVariation("text_variation", for: String.self) { label, value in
         label.text = variationText
     }
-    .addVariation("font_variation", ofType: Void.self) { label, _ in
+    .addFeatureFlag("font_variation") { label in
         label.font = UIFont.boldSystemFont(ofSize: 14)
     }
 
 // button color
-button.addVariation("button_variation", ofType: Void.self) { button, _ in
+button.addFeatureFlag("button_variation") { button in
     button.backgroundColor = .orange
 }
 
 // combined elements
-self.addVariation("combined_variation", ofType: Void.self) { viewController, _ in
+self.addFeatureFlag("combined_variation") { viewController in
     viewController.label.textColor = .lightGray
     viewController.button.setTitleColor(.lightGray, for: .normal)
 }
 ```
 
-Since each experiment directly affects UI elements, varations are only executed on main thread.
+Since each experiment directly affects UI elements, variations are only executed on main thread.
 
 ## Installation
 
@@ -123,7 +113,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - [x] Create a configuration file for bundled experiments
 - [x] Ability to support variation in value: Void, Bool, Int, String.
-- [ ] Ability to support remote configuration
+- [x] Ability to support remote configuration: Apptimize
 - [ ] Ability to support amount of users affected per experiment
 
 ## Author
