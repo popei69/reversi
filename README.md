@@ -55,8 +55,7 @@ Reversi includes variations and will execute only the one included in the runnin
 The key designed the unique identifier to that experiment.
 
 ```swift
-// feed your configuration to the service
-let config = [["key": "text_variation", "value": "Hello Variation World"], ...]
+// feed your configuration to the service from local json or remote service
 ReversiService.shared.configure(with: configuration)
 
 label.text = "Hello World"
