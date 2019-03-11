@@ -42,7 +42,7 @@ __Apptimize with Reversi__
 
 ```swift
 myObject.defaultVariant()
-myObject.addFeatureFlag("new_feature_flag_variable"{ object in
+myObject.addFeatureFlag("new_feature_flag_variable") { object in
     object.customVariant()
 }
 ```
