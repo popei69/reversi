@@ -35,17 +35,17 @@ class ViewController: UIViewController {
     func addVariations() {
         
         // label color
-        label.addVariation("text_variation", ofType: Bool.self) { label, value in
+        label.addVariation("text_variation", for: Bool.self) { label, value in
             label.isHidden = value
         }
         
         // button color
-        button.addVariation("button_variation", ofType: Void.self) { button, _ in
+        button.addFeatureFlag("button_variation") { button in
             button.backgroundColor = .orange
         }
           
         // combined elements
-        self.addVariation("combined_variation", ofType: Void.self) { viewController, _ in
+        self.addFeatureFlag("combined_variation") { viewController in
             viewController.label.textColor = .lightGray
             viewController.button.setTitleColor(.lightGray, for: .normal)
             viewController.view.backgroundColor = .cyan

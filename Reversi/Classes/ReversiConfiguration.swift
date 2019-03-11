@@ -6,5 +6,6 @@
 //
 
 public protocol ReversiConfigurationProtocol {
-    var experiments : [String : Any] { get } 
+    func canExecute<T>(_ variation: Variation<T>) -> Bool
+    func execute<T>(_ variation: Variation<T>, options: [String: Any]?)
 }

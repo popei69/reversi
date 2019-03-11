@@ -57,6 +57,7 @@ self.addVariation("variation1", ofType: Void.self) { viewController, _ in
 }
 ```
 
+Read more about how to implement [Reversi for Apptimze](/Docs/Apptimize.md)
 
 ## How does it work?
 

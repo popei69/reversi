@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0480F50C905F41253EC042CDF3071E2C /* Pods-Reversi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5FF96D1DDBAFD24F47A0CB40EA4AE1 /* Pods-Reversi_Example-dummy.m */; };
 		2B123CD259E1B17AA743060F16B0E221 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3C7A526A009B13A5AC568D060C4A9A94 /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C8A4D665A82EA10B7FEF28E3196817 /* Variation.swift */; };
-		3CA2A53E37497F893A86322455F7400F /* ReversiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0EA324BD47025CF0BCCFA959C99B35 /* ReversiConfiguration.swift */; };
+		3C7A526A009B13A5AC568D060C4A9A94 /* Variation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1157AC7F791E28F2C40412ADD7E87 /* Variation.swift */; };
+		3CA2A53E37497F893A86322455F7400F /* ReversiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C93B2445873CBEA1B58CCEEB732421 /* ReversiConfiguration.swift */; };
 		3EB1D8301F6D24A3AD9BB4EE7958A31A /* Pods-Reversi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E81585937D43651C87C6978EBEA49A34 /* Pods-Reversi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		586E5B590FD81735C0036C7597182A8A /* Reversi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C21E0A91284123CA32802E58C534CBC /* Reversi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586E5B590FD81735C0036C7597182A8A /* Reversi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E18E0E32FE53AE3D325F5A9BE2728351 /* Reversi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77E5C04BC7883B8D5C24F26B1CA5B1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		82E1BD935DECAF380D3D45494A275057 /* Reversi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C95C1259B49A04B5666FF4A17EDA6 /* Reversi-dummy.m */; };
-		AC5C88D0A379F178875B1DB88B423B70 /* VariationCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449DE953BA76C2A7B56DF099FB115B7B /* VariationCompatible.swift */; };
-		D28D6CF32BA0DC89E2D783B3948087B9 /* ReversiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084BD4B909EB20D4FE562C948354A2F3 /* ReversiService.swift */; };
+		82E1BD935DECAF380D3D45494A275057 /* Reversi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F71A8E87CC9639E2644C5DAEF5D99338 /* Reversi-dummy.m */; };
+		AC5C88D0A379F178875B1DB88B423B70 /* VariationCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF2B92AF44760DF4E142A5854654CB6 /* VariationCompatible.swift */; };
+		D28D6CF32BA0DC89E2D783B3948087B9 /* ReversiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038E74F8284F68927FDF08BA2246F10 /* ReversiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,32 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		084BD4B909EB20D4FE562C948354A2F3 /* ReversiService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReversiService.swift; path = Reversi/Classes/ReversiService.swift; sourceTree = "<group>"; };
-		0D0EA324BD47025CF0BCCFA959C99B35 /* ReversiConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReversiConfiguration.swift; path = Reversi/Classes/ReversiConfiguration.swift; sourceTree = "<group>"; };
+		00033E13B3178E701DCD98B7914A013C /* Reversi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reversi-Info.plist"; sourceTree = "<group>"; };
 		0D5FF96D1DDBAFD24F47A0CB40EA4AE1 /* Pods-Reversi_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reversi_Example-dummy.m"; sourceTree = "<group>"; };
-		143C95C1259B49A04B5666FF4A17EDA6 /* Reversi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reversi-dummy.m"; sourceTree = "<group>"; };
+		11C93B2445873CBEA1B58CCEEB732421 /* ReversiConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReversiConfiguration.swift; path = Reversi/Classes/ReversiConfiguration.swift; sourceTree = "<group>"; };
 		1B194F0EDFDF3909D8E43E437D2ACE29 /* Pods-Reversi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reversi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1EBEEF091005B81EA7A2972C2489FC6B /* Pods-Reversi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Reversi_Example.modulemap"; sourceTree = "<group>"; };
-		2547AE5F2A9CF4A08A2E273C7451631E /* Reversi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reversi-prefix.pch"; sourceTree = "<group>"; };
 		2FC0E6A91A14C700A52F00271799D8A6 /* Pods-Reversi_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reversi_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3330A7F7087C6051AFA16966BA015B42 /* Reversi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reversi.xcconfig; sourceTree = "<group>"; };
-		39F8AB41898C3FFB85EE45400B070F97 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3771A4ACA2AA52625DB6F62337B010A9 /* Reversi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reversi-prefix.pch"; sourceTree = "<group>"; };
 		3A2F320DBC8A3EEA1EE7346AA9BD7F1B /* Pods_Reversi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reversi_Example.framework; path = "Pods-Reversi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD1157AC7F791E28F2C40412ADD7E87 /* Variation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variation.swift; path = Reversi/Classes/Variation.swift; sourceTree = "<group>"; };
 		43DDD37D8964E5E2F4B247F110E99DE3 /* Reversi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reversi.framework; path = Reversi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		449DE953BA76C2A7B56DF099FB115B7B /* VariationCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariationCompatible.swift; path = Reversi/Classes/VariationCompatible.swift; sourceTree = "<group>"; };
-		6C21E0A91284123CA32802E58C534CBC /* Reversi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reversi-umbrella.h"; sourceTree = "<group>"; };
-		80B23AB0F0DFCDAEA9802A8598B83150 /* Reversi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reversi.modulemap; sourceTree = "<group>"; };
-		87C8A4D665A82EA10B7FEF28E3196817 /* Variation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variation.swift; path = Reversi/Classes/Variation.swift; sourceTree = "<group>"; };
+		47882241C5652664354BF243BF4D9E5F /* Reversi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reversi.xcconfig; sourceTree = "<group>"; };
+		84D0299ED9998BC4980663C4228DDA97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		97B21560C6B80DED9C5010E91276A802 /* Pods-Reversi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reversi_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B23A28B62BA8E2FCD4AB0729F51ABEF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BA004DB849D3B2408CE256C5C91A456C /* Pods-Reversi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reversi_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BFC91C79E18735672252C826453C9247 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C09D6B22128841798173395CF85632DA /* Pods-Reversi_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reversi_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3CD3E875097BCB8632BF985CD687627 /* Reversi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Reversi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEF63267FA1AB352E6FDA83FFAD84FB2 /* Reversi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reversi-Info.plist"; sourceTree = "<group>"; };
+		D9321EF711A66D271B57ABD4D0B66CE8 /* Apptimize.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Apptimize.md; path = Docs/Apptimize.md; sourceTree = "<group>"; };
 		DA5525E34D8836FB5E86F5CD2146212E /* Pods-Reversi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reversi_Example-Info.plist"; sourceTree = "<group>"; };
+		DB042F81522DE0067901A26ABE89506C /* Reversi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Reversi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E038E74F8284F68927FDF08BA2246F10 /* ReversiService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReversiService.swift; path = Reversi/Classes/ReversiService.swift; sourceTree = "<group>"; };
+		E18E0E32FE53AE3D325F5A9BE2728351 /* Reversi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reversi-umbrella.h"; sourceTree = "<group>"; };
 		E81585937D43651C87C6978EBEA49A34 /* Pods-Reversi_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reversi_Example-umbrella.h"; sourceTree = "<group>"; };
+		EBD204A278D9250B5265F01161E769F9 /* Reversi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reversi.modulemap; sourceTree = "<group>"; };
+		F71A8E87CC9639E2644C5DAEF5D99338 /* Reversi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reversi-dummy.m"; sourceTree = "<group>"; };
+		FEF2B92AF44760DF4E142A5854654CB6 /* VariationCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariationCompatible.swift; path = Reversi/Classes/VariationCompatible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08093F3FDD7A57188C03F42565FFD8CE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9321EF711A66D271B57ABD4D0B66CE8 /* Apptimize.md */,
+				BFC91C79E18735672252C826453C9247 /* LICENSE */,
+				84D0299ED9998BC4980663C4228DDA97 /* README.md */,
+				DB042F81522DE0067901A26ABE89506C /* Reversi.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		2F385B854B7891D2AC4C759452FFBA8B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,44 +115,6 @@
 			path = "Target Support Files/Pods-Reversi_Example";
 			sourceTree = "<group>";
 		};
-		5E97B74D06823C8B4999D24E3F53724C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				39F8AB41898C3FFB85EE45400B070F97 /* LICENSE */,
-				B23A28B62BA8E2FCD4AB0729F51ABEF1 /* README.md */,
-				C3CD3E875097BCB8632BF985CD687627 /* Reversi.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		881F1BF0663952F48ED21CC46A06FC74 /* Reversi */ = {
-			isa = PBXGroup;
-			children = (
-				0D0EA324BD47025CF0BCCFA959C99B35 /* ReversiConfiguration.swift */,
-				084BD4B909EB20D4FE562C948354A2F3 /* ReversiService.swift */,
-				87C8A4D665A82EA10B7FEF28E3196817 /* Variation.swift */,
-				449DE953BA76C2A7B56DF099FB115B7B /* VariationCompatible.swift */,
-				5E97B74D06823C8B4999D24E3F53724C /* Pod */,
-				92BA06B40E62C2957FAD479B868AE990 /* Support Files */,
-			);
-			name = Reversi;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		92BA06B40E62C2957FAD479B868AE990 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80B23AB0F0DFCDAEA9802A8598B83150 /* Reversi.modulemap */,
-				3330A7F7087C6051AFA16966BA015B42 /* Reversi.xcconfig */,
-				143C95C1259B49A04B5666FF4A17EDA6 /* Reversi-dummy.m */,
-				CEF63267FA1AB352E6FDA83FFAD84FB2 /* Reversi-Info.plist */,
-				2547AE5F2A9CF4A08A2E273C7451631E /* Reversi-prefix.pch */,
-				6C21E0A91284123CA32802E58C534CBC /* Reversi-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Reversi";
-			sourceTree = "<group>";
-		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +135,7 @@
 		C9B5848E2E9D7E32E08847350A109FD3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				881F1BF0663952F48ED21CC46A06FC74 /* Reversi */,
+				F91396A918F9A97E82AB0F97646D5BF3 /* Reversi */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -183,6 +157,34 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D1F22D324BCCB95857F0C98AA08250 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD204A278D9250B5265F01161E769F9 /* Reversi.modulemap */,
+				47882241C5652664354BF243BF4D9E5F /* Reversi.xcconfig */,
+				F71A8E87CC9639E2644C5DAEF5D99338 /* Reversi-dummy.m */,
+				00033E13B3178E701DCD98B7914A013C /* Reversi-Info.plist */,
+				3771A4ACA2AA52625DB6F62337B010A9 /* Reversi-prefix.pch */,
+				E18E0E32FE53AE3D325F5A9BE2728351 /* Reversi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Reversi";
+			sourceTree = "<group>";
+		};
+		F91396A918F9A97E82AB0F97646D5BF3 /* Reversi */ = {
+			isa = PBXGroup;
+			children = (
+				11C93B2445873CBEA1B58CCEEB732421 /* ReversiConfiguration.swift */,
+				E038E74F8284F68927FDF08BA2246F10 /* ReversiService.swift */,
+				3CD1157AC7F791E28F2C40412ADD7E87 /* Variation.swift */,
+				FEF2B92AF44760DF4E142A5854654CB6 /* VariationCompatible.swift */,
+				08093F3FDD7A57188C03F42565FFD8CE /* Pod */,
+				D5D1F22D324BCCB95857F0C98AA08250 /* Support Files */,
+			);
+			name = Reversi;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,7 +392,7 @@
 		};
 		7A4646C3CE0E77F488F86C84C1B69093 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3330A7F7087C6051AFA16966BA015B42 /* Reversi.xcconfig */;
+			baseConfigurationReference = 47882241C5652664354BF243BF4D9E5F /* Reversi.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -486,7 +488,7 @@
 		};
 		DA06DBA3EA118392D6A776E93C7C5DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3330A7F7087C6051AFA16966BA015B42 /* Reversi.xcconfig */;
+			baseConfigurationReference = 47882241C5652664354BF243BF4D9E5F /* Reversi.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

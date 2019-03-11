@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1437E912223693F700A28E9A /* ApptimizeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */; };
+		1437E9142236A6C200A28E9A /* ApptimizeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E9132236A6C200A28E9A /* ApptimizeMock.swift */; };
 		14E8AB69222D60C2005CEAEB /* LocalFileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8AB68222D60C2005CEAEB /* LocalFileConfiguration.swift */; };
 		14E8AB6E222D6279005CEAEB /* LocalConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 14E8AB6D222D6279005CEAEB /* LocalConfig.json */; };
 		1B964B74B6A6279D9552A507 /* Pods_Reversi_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A955AC621DB7A196538AE0DB /* Pods_Reversi_Example.framework */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeConfiguration.swift; sourceTree = "<group>"; };
+		1437E9132236A6C200A28E9A /* ApptimizeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeMock.swift; sourceTree = "<group>"; };
 		14E8AB68222D60C2005CEAEB /* LocalFileConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileConfiguration.swift; sourceTree = "<group>"; };
 		14E8AB6D222D6279005CEAEB /* LocalConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LocalConfig.json; sourceTree = "<group>"; };
 		2C864CF0DEEA864403A26CBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -67,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1437E910223693E600A28E9A /* Apptimize */ = {
+			isa = PBXGroup;
+			children = (
+				1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */,
+				1437E9132236A6C200A28E9A /* ApptimizeMock.swift */,
+			);
+			name = Apptimize;
+			sourceTree = "<group>";
+		};
 		14E8AB6A222D617A005CEAEB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		607FACD21AFB9204008FA782 /* Example for Reversi */ = {
 			isa = PBXGroup;
 			children = (
+				1437E910223693E600A28E9A /* Apptimize */,
 				14E8AB6C222D61A3005CEAEB /* LocalConfiguration */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				14E8AB6A222D617A005CEAEB /* ViewControllers */,
@@ -334,7 +348,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				1437E9142236A6C200A28E9A /* ApptimizeMock.swift in Sources */,
 				14E8AB69222D60C2005CEAEB /* LocalFileConfiguration.swift in Sources */,
+				1437E912223693F700A28E9A /* ApptimizeConfiguration.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +496,10 @@
 			baseConfigurationReference = 78B8BE6A87827B8EFE1DF293 /* Pods-Reversi_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Reversi",
+				);
 				INFOPLIST_FILE = Reversi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -495,6 +515,10 @@
 			baseConfigurationReference = 9A0D5882EC146E8461DD69C7 /* Pods-Reversi_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Reversi",
+				);
 				INFOPLIST_FILE = Reversi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

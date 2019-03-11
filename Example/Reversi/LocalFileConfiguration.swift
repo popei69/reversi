@@ -10,6 +10,7 @@ import Foundation
 import Reversi
 
 class LocalFileConfiguration : ReversiConfigurationProtocol {
+    
     var experiments: [String : Any]
     
     init(from fileName: String) {
@@ -25,7 +26,25 @@ class LocalFileConfiguration : ReversiConfigurationProtocol {
                 }
                 return nextDic
             }) ?? [:]
-            
+    }
+    
+    // MARK: - ReversiConfigurationProtocol
+    func canExecute<T>(_ variation: Variation<T>) -> Bool {
+        return experiments[variation.key] != nil 
+    }
+    
+    func execute<T>(_ variation: Variation<T>, options: [String : Any]?) {
+        
+        // detect Void type
+        if let variation = variation as? Variation<Void>, 
+            experiments.contains(where: { $0.key == variation.key }) {
+            variation.execute(with: ())
+            return
+        }
+        
+        if let value = experiments[variation.key] as? T {
+            variation.execute(with: value)
+        }
     }
 }
 

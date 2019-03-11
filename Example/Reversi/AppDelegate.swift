@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let configuration = LocalFileConfiguration(from: "LocalConfig")
         try? ReversiService.shared.configure(with: configuration)
         
-        
+
         return true
     }
 
