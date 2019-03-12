@@ -10,7 +10,7 @@ import Foundation
 import Reversi
 //import Apptimize
 
-class ApptimizeConfiguration : ReversiConfigurationProtocol {
+final class ApptimizeConfiguration : ReversiConfigurationProtocol {
     
     func setup() {
         Apptimize.start(withApplicationKey: "XYZ")

@@ -13,6 +13,7 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
  - [Why Reversi?](#why-reversi)
     - [Apptimize case study](#apptimize)
+    - [Firebase case study](#firebase)
  - [How does it work?](#how-does-it-work)
  - [Usage](#usage)
  - [Installation](#installation)
@@ -48,6 +49,23 @@ myObject.addFeatureFlag("new_feature_flag_variable") { object in
 ```
 
 Read more about how to implement [Reversi for Apptimze](/Docs/Apptimize.md)
+
+### Firebase
+__Firebase before Reversi__
+```swift
+var welcomeMessage = remoteConfig[welcomeMessageConfigKey].stringValue
+```
+
+__Firebase with Reversi__
+
+```swift
+var welcomeMessage = "Welcome"
+welcomeMessage.addVariation(welcomeMessageConfigKey, for: String.self) { welcomeMessage, newText in
+    welcomeMessage = newText
+}
+```
+
+Read more about how to implement [Reversi for Reversi](/Docs/Firebase.md)
 
 ## How does it work?
 

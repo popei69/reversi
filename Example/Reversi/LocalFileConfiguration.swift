@@ -44,6 +44,7 @@ class LocalFileConfiguration : ReversiConfigurationProtocol {
         
         if let value = experiments[variation.key] as? T {
             variation.execute(with: value)
+            return
         }
     }
 }

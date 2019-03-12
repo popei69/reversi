@@ -3,4 +3,5 @@ use_frameworks!
 target 'Reversi_Example' do
   pod 'Reversi', :path => '../'
   
+  pod 'Firebase/RemoteConfig'
 end

@@ -73,31 +73,31 @@ func canExecute<T>(_ variation: Variation<T>) -> Bool {
 
 public func execute<T>(_ variation: Variation<T>, options: [String: Any]?) {
 
-        switch variation.type {
-        case .featureFlag:
+    switch variation.type {
+    case .featureFlag:
 
-            // detect Void type
-            if let variation = variation as? Variation<Void> {
-                variation.execute(with: ())
-                return
-            }
-
-        case .variant:
-
-            guard let variation = variation as? Variation<Void>,
-                let testName = options?["test_name"] as? String
-                else {
-                return
-            }
-
-            let codeblock = ApptimizeCodeBlock(name: variation.key) {
-                variation.execute(with: ())
-            }
-            Apptimize.runTest(testName, withBaseline: {
-                // baseline should be your code by default
-            }, andApptimizeCodeBlocks: [codeblock])
+        // detect Void type
+        if let variation = variation as? Variation<Void> {
+            variation.execute(with: ())
+            return
         }
+
+    case .variant:
+
+        guard let variation = variation as? Variation<Void>,
+            let testName = options?["test_name"] as? String
+            else {
+            return
+        }
+
+        let codeblock = ApptimizeCodeBlock(name: variation.key) {
+            variation.execute(with: ())
+        }
+        Apptimize.runTest(testName, withBaseline: {
+            // baseline should be your code by default
+        }, andApptimizeCodeBlocks: [codeblock])
     }
+}
 ```
 
 Check [ApptimizeConfiguration.swift](https://github.com/popei69/reversi/blob/master/Example/Reversi/ApptimizeConfiguration.swift) file to see a complete example.
