@@ -164,8 +164,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - [x] Create a configuration file for bundled experiments
 - [x] Ability to support variation in value: Void, Bool, Int, String.
-- [x] Ability to support remote configuration: Apptimize
+- [x] Ability to support remote configuration: Apptimize, Firebase, Optimizely
 - [ ] Ability to support amount of users affected per experiment
+- [ ] Unit tests for stability
 
 ## Author
 
