@@ -65,7 +65,7 @@ welcomeMessage.addVariation(welcomeMessageConfigKey, for: String.self) { welcome
 }
 ```
 
-Read more about how to implement [Reversi for Reversi](/Docs/Firebase.md)
+Read more about how to implement [Reversi for Firebase](/Docs/Firebase.md)
 
 ## How does it work?
 
