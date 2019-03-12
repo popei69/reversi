@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Reversi
 //
-//  Created by popei69 on 02/28/2019.
-//  Copyright (c) 2019 popei69. All rights reserved.
+//  Created by Benoit PASQUIER on 02/28/2019.
+//  Copyright © 2019 Benoit PASQUIER. All rights reserved.
 //
 
 import UIKit

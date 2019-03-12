@@ -1,7 +1,6 @@
 ## Reversi with Firebase iOS
 
-Firebase iOS is great tool to use for feature flag with RemoteConfig.
-Here is an example how to use with Reversi to abstract its implementation.
+https://firebase.google.com/docs/ios/setup
 
 ### A/B experiments
 

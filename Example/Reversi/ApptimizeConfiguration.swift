@@ -3,7 +3,7 @@
 //  Reversi_Example
 //
 //  Created by Benoit PASQUIER on 11/03/2019.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Copyright © 2019 Benoit PASQUIER. All rights reserved.
 //
 
 import Foundation

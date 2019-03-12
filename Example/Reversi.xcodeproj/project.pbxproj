@@ -10,6 +10,7 @@
 		1437E912223693F700A28E9A /* ApptimizeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */; };
 		1437E9142236A6C200A28E9A /* ApptimizeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E9132236A6C200A28E9A /* ApptimizeMock.swift */; };
 		146987812237DAAB000B2218 /* FirebaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146987802237DAAB000B2218 /* FirebaseConfiguration.swift */; };
+		146987862237E4D6000B2218 /* OptimizelyConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146987852237E4D6000B2218 /* OptimizelyConfiguration.swift */; };
 		14E8AB69222D60C2005CEAEB /* LocalFileConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8AB68222D60C2005CEAEB /* LocalFileConfiguration.swift */; };
 		14E8AB6E222D6279005CEAEB /* LocalConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 14E8AB6D222D6279005CEAEB /* LocalConfig.json */; };
 		1B964B74B6A6279D9552A507 /* Pods_Reversi_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A955AC621DB7A196538AE0DB /* Pods_Reversi_Example.framework */; };
@@ -34,6 +35,7 @@
 		1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeConfiguration.swift; sourceTree = "<group>"; };
 		1437E9132236A6C200A28E9A /* ApptimizeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeMock.swift; sourceTree = "<group>"; };
 		146987802237DAAB000B2218 /* FirebaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfiguration.swift; sourceTree = "<group>"; };
+		146987852237E4D6000B2218 /* OptimizelyConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimizelyConfiguration.swift; sourceTree = "<group>"; };
 		14E8AB68222D60C2005CEAEB /* LocalFileConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileConfiguration.swift; sourceTree = "<group>"; };
 		14E8AB6D222D6279005CEAEB /* LocalConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LocalConfig.json; sourceTree = "<group>"; };
 		2C864CF0DEEA864403A26CBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			name = Firebase;
 			sourceTree = "<group>";
 		};
+		146987842237E4BC000B2218 /* Optimizely */ = {
+			isa = PBXGroup;
+			children = (
+				146987852237E4D6000B2218 /* OptimizelyConfiguration.swift */,
+			);
+			name = Optimizely;
+			sourceTree = "<group>";
+		};
 		14E8AB6A222D617A005CEAEB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 		607FACD21AFB9204008FA782 /* Example for Reversi */ = {
 			isa = PBXGroup;
 			children = (
+				146987842237E4BC000B2218 /* Optimizely */,
 				1469877F2237DA9D000B2218 /* Firebase */,
 				1437E910223693E600A28E9A /* Apptimize */,
 				14E8AB6C222D61A3005CEAEB /* LocalConfiguration */,
@@ -339,6 +350,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Reversi_Example/Pods-Reversi_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKCore/OptimizelySDKCore.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKShared/OptimizelySDKShared.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService.framework",
+				"${BUILT_PRODUCTS_DIR}/OptimizelySDKiOS/OptimizelySDKiOS.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Reversi/Reversi.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -348,6 +365,12 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKDatafileManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKEventDispatcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKShared.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKUserProfileService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OptimizelySDKiOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reversi.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -365,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				146987862237E4D6000B2218 /* OptimizelyConfiguration.swift in Sources */,
 				1437E9142236A6C200A28E9A /* ApptimizeMock.swift in Sources */,
 				14E8AB69222D60C2005CEAEB /* LocalFileConfiguration.swift in Sources */,
 				146987812237DAAB000B2218 /* FirebaseConfiguration.swift in Sources */,

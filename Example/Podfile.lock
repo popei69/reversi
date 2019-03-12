@@ -62,11 +62,25 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - OptimizelySDKCore (2.1.6)
+  - OptimizelySDKDatafileManager (2.1.6):
+    - OptimizelySDKShared (= 2.1.6)
+  - OptimizelySDKEventDispatcher (2.1.6):
+    - OptimizelySDKShared (= 2.1.6)
+  - OptimizelySDKiOS (2.1.6):
+    - OptimizelySDKDatafileManager (= 2.1.6)
+    - OptimizelySDKEventDispatcher (= 2.1.6)
+    - OptimizelySDKUserProfileService (= 2.1.6)
+  - OptimizelySDKShared (2.1.6):
+    - OptimizelySDKCore (= 2.1.6)
+  - OptimizelySDKUserProfileService (2.1.6):
+    - OptimizelySDKShared (= 2.1.6)
   - Protobuf (3.6.1)
   - Reversi (0.1.0)
 
 DEPENDENCIES:
   - Firebase/RemoteConfig
+  - OptimizelySDKiOS
   - Reversi (from `../`)
 
 SPEC REPOS:
@@ -80,6 +94,12 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - nanopb
+    - OptimizelySDKCore
+    - OptimizelySDKDatafileManager
+    - OptimizelySDKEventDispatcher
+    - OptimizelySDKiOS
+    - OptimizelySDKShared
+    - OptimizelySDKUserProfileService
     - Protobuf
 
 EXTERNAL SOURCES:
@@ -96,9 +116,15 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 621f3bc6211d5ba548debe01fafad30cf5ab6859
   GoogleUtilities: 111a012f4c3a29c9e7c954c082fafd6ee3c999c0
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  OptimizelySDKCore: ba580d5d85e571ee94e19bf38bbd194b2a034911
+  OptimizelySDKDatafileManager: de1cabf7391467f65c2d63192532d0882a6e603c
+  OptimizelySDKEventDispatcher: 1799b7e69aed6682673823b71747c0ee8a70126a
+  OptimizelySDKiOS: b0bae4699fc13a00d84295e82d44bc0e12573c2e
+  OptimizelySDKShared: c22ce9ab4e12d39920b9d6706bda796288b1d239
+  OptimizelySDKUserProfileService: 042b1993fec0e44124c412422c7d52bd892ac139
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   Reversi: 211dee1334700e516ad0be5920ecc364d6807196
 
-PODFILE CHECKSUM: 84216067a5d5b77b9e1f2a78bbe8b588b16c60e6
+PODFILE CHECKSUM: 96bc4ead2e1ec74d83f5cda461f823ad57425129
 
 COCOAPODS: 1.6.0

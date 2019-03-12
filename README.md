@@ -14,6 +14,7 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
  - [Why Reversi?](#why-reversi)
     - [Apptimize case study](#apptimize)
     - [Firebase case study](#firebase)
+    - [Optimizely case study](#optimizely)
  - [How does it work?](#how-does-it-work)
  - [Usage](#usage)
  - [Installation](#installation)
@@ -66,6 +67,39 @@ welcomeMessage.addVariation(welcomeMessageConfigKey, for: String.self) { welcome
 ```
 
 Read more about how to implement [Reversi for Firebase](/Docs/Firebase.md)
+
+### Optimizely
+__Optimizely before Reversi__
+```swift
+// Activate an A/B test
+let variation = client?.activate("app_redesign", userId:"12122")
+if (variation?.variationKey == "control") {
+    // Execute code for "control" variation
+    myObject.variantControl()
+} else if (variation?.variationKey == "treatment") {
+    // Execute code for "treatment" variation
+    myObject.variantTreatment()
+} else {
+    // Execute code for users who don't qualify for the experiment
+    myObject.defaultVariant()
+}
+```
+
+__Optimizely with Reversi__
+
+```swift
+// Activate an A/B test
+myObject.defaultVariant()
+myObject
+    .addVariation("app_redesign", for: Void.self, options: ["variable_key": "control"]) { myObject, _ in
+        myObject.variantControl()
+    }
+    .addVariation("app_redesign", for: Void.self, options: ["variable_key": "treatment"]) { myObject, _ in
+        myObject.variantControl()
+    }
+```
+
+Read more about how to implement [Reversi for Firebase](/Docs/Optimizely.md)
 
 ## How does it work?
 
