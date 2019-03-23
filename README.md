@@ -1,9 +1,14 @@
 # Reversi ⚫️⚪️
 
+[![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat
+)](https://developer.apple.com/iphone/index.action)
+[![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
+)](https://developer.apple.com/swift)
 [![CI Status](https://img.shields.io/travis/popei69/reversi.svg?style=flat)](https://travis-ci.org/popei69/reversi)
 [![Version](https://img.shields.io/cocoapods/v/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
-[![License](https://img.shields.io/cocoapods/l/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
 [![Platform](https://img.shields.io/cocoapods/p/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/cocoapods/l/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
 
 Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
