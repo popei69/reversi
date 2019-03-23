@@ -1,6 +1,6 @@
 # Reversi ⚫️⚪️
 
-[![CI Status](https://img.shields.io/travis/popei69/Reversi.svg?style=flat)](https://travis-ci.org/popei69/Reversi)
+[![CI Status](https://img.shields.io/travis/popei69/reversi.svg?style=flat)](https://travis-ci.org/popei69/reversi)
 [![Version](https://img.shields.io/cocoapods/v/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
 [![License](https://img.shields.io/cocoapods/l/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
 [![Platform](https://img.shields.io/cocoapods/p/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
