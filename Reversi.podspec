@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Reversi'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'An A/B Testing framework written in Swift.'
   s.description      = <<-DESC
 Every iOS app should be able to implement A/B test without only relying on external services.
