@@ -17,14 +17,20 @@ public protocol VariationCompatible {
 extension VariationCompatible where Self:NSObject {
     
     @discardableResult
-    public func addVariation<Value>(_ key: String, queue: DispatchQueue? = nil, for: Value.Type, options: [String: Any]? = nil, variantOf variant: @escaping (Self, Value) -> ()) -> Self {
+    public func addVariation<Value>(_ key: String, 
+                                    queue: DispatchQueue? = nil, 
+                                    for: Value.Type, 
+                                    options: [String: Any]? = nil, 
+                                    variantOf variant: @escaping (Self, Value) -> ()) -> Self {
         let variation = Variation<Value>(self, key: key, type: .variant, variantOf: variant)
         ReversiService.shared.executeVariation(variation, options: options)
         return self
     }
     
     @discardableResult
-    public func addFeatureFlag(_ key: String, queue: DispatchQueue? = nil, variantOf variant: @escaping (Self) -> ()) -> Self {
+    public func addFeatureFlag(_ key: String, 
+                               queue: DispatchQueue? = nil, 
+                               variantOf variant: @escaping (Self) -> ()) -> Self {
         let variation = Variation<Void>(self, key: key, type: .featureFlag, variantOf: variant)
         ReversiService.shared.executeVariation(variation)
         return self

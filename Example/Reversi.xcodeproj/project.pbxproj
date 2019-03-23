@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1433C5EE2245DFB60022CF04 /* VariationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433C5ED2245DFB60022CF04 /* VariationTests.swift */; };
+		1433C5F02245F6220022CF04 /* VariationCompatibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433C5EF2245F6220022CF04 /* VariationCompatibleTests.swift */; };
+		1433C5F22245F7080022CF04 /* ReversiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433C5F12245F7080022CF04 /* ReversiServiceTests.swift */; };
 		1437E912223693F700A28E9A /* ApptimizeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */; };
 		1437E9142236A6C200A28E9A /* ApptimizeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437E9132236A6C200A28E9A /* ApptimizeMock.swift */; };
 		146987812237DAAB000B2218 /* FirebaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146987802237DAAB000B2218 /* FirebaseConfiguration.swift */; };
@@ -19,6 +22,7 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		E917CA65752D88B6CE4516DE /* Pods_Reversi_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B9576B432D019DEBD1DD56 /* Pods_Reversi_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1433C5ED2245DFB60022CF04 /* VariationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationTests.swift; sourceTree = "<group>"; };
+		1433C5EF2245F6220022CF04 /* VariationCompatibleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariationCompatibleTests.swift; sourceTree = "<group>"; };
+		1433C5F12245F7080022CF04 /* ReversiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversiServiceTests.swift; sourceTree = "<group>"; };
 		1437E911223693F700A28E9A /* ApptimizeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeConfiguration.swift; sourceTree = "<group>"; };
 		1437E9132236A6C200A28E9A /* ApptimizeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApptimizeMock.swift; sourceTree = "<group>"; };
 		146987802237DAAB000B2218 /* FirebaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConfiguration.swift; sourceTree = "<group>"; };
@@ -53,6 +60,8 @@
 		78B8BE6A87827B8EFE1DF293 /* Pods-Reversi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reversi_Example.debug.xcconfig"; path = "Target Support Files/Pods-Reversi_Example/Pods-Reversi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9A0D5882EC146E8461DD69C7 /* Pods-Reversi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reversi_Example.release.xcconfig"; path = "Target Support Files/Pods-Reversi_Example/Pods-Reversi_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A955AC621DB7A196538AE0DB /* Pods_Reversi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reversi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD73CA99775287DE6FBA5446 /* Pods-Reversi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reversi_Tests.release.xcconfig"; path = "Target Support Files/Pods-Reversi_Tests/Pods-Reversi_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F7C5CABAA4BD926AAC4E4CF7 /* Pods-Reversi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reversi_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Reversi_Tests/Pods-Reversi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8B00BB40ECE9233E1B6457B /* Reversi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Reversi.podspec; path = ../Reversi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E917CA65752D88B6CE4516DE /* Pods_Reversi_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				1433C5ED2245DFB60022CF04 /* VariationTests.swift */,
+				1433C5F12245F7080022CF04 /* ReversiServiceTests.swift */,
+				1433C5EF2245F6220022CF04 /* VariationCompatibleTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -212,6 +225,8 @@
 			children = (
 				78B8BE6A87827B8EFE1DF293 /* Pods-Reversi_Example.debug.xcconfig */,
 				9A0D5882EC146E8461DD69C7 /* Pods-Reversi_Example.release.xcconfig */,
+				F7C5CABAA4BD926AAC4E4CF7 /* Pods-Reversi_Tests.debug.xcconfig */,
+				AD73CA99775287DE6FBA5446 /* Pods-Reversi_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -242,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Reversi_Tests" */;
 			buildPhases = (
+				39E0166A685ED1D28E2E4477 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				46CD937C0A73CBFF11DD3FC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,11 +286,12 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -340,6 +358,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		39E0166A685ED1D28E2E4477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reversi_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46CD937C0A73CBFF11DD3FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reversi_Tests/Pods-Reversi_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reversi/Reversi.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reversi.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reversi_Tests/Pods-Reversi_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6D1F42CC2CC89B14F84A4D36 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,6 +463,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1433C5F22245F7080022CF04 /* ReversiServiceTests.swift in Sources */,
+				1433C5EE2245DFB60022CF04 /* VariationTests.swift in Sources */,
+				1433C5F02245F6220022CF04 /* VariationCompatibleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +603,8 @@
 			baseConfigurationReference = 78B8BE6A87827B8EFE1DF293 /* Pods-Reversi_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Reversi",
@@ -547,6 +614,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -557,6 +625,8 @@
 			baseConfigurationReference = 9A0D5882EC146E8461DD69C7 /* Pods-Reversi_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Reversi",
@@ -566,6 +636,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -573,7 +644,11 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C5CABAA4BD926AAC4E4CF7 /* Pods-Reversi_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -586,15 +661,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reversi_Example.app/Reversi_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD73CA99775287DE6FBA5446 /* Pods-Reversi_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -603,9 +683,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reversi_Example.app/Reversi_Example";
 			};
 			name = Release;
 		};
