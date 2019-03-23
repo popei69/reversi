@@ -21,6 +21,7 @@ Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
  - [Example](#example)
  - [Installation](#installation)
  - [State of the project](#state-of-the-project)
+ - [Contributing](#contribute)
 
 
 ## Why Reversi?
@@ -149,11 +150,21 @@ Since each experiment directly affects UI elements, variations are only executed
 
 ## Installation
 
+### Cocoapods
+
 Reversi is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Reversi'
+```
+
+### Carthage
+
+Reversi is also available through Carthage.
+
+```
+github 'popei69/Reversi' ~> 1.0
 ```
 
 ## Example
@@ -164,13 +175,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 - [x] Create a configuration file for bundled experiments
 - [x] Ability to support variation in value: Void, Bool, Int, String.
-- [x] Ability to support remote configuration: Apptimize, Firebase, Optimizely
+- [x] Ability to support remote configuration: Apptimize, Firebase, Optimizely.
+- [x] Unit tests for stability.
 - [ ] Ability to support amount of users affected per experiment
-- [ ] Unit tests for stability
 
 ## Author
 
 Benoit Pasquier, b.pasquier69@gmail.com
+
+## Contributing
+
+This project is still exploratory. I'm happy for anybody to create an issue for suggestions and improvements.
 
 ## License
 
