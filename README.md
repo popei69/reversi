@@ -12,7 +12,7 @@
 
 Reversi ⚫️⚪️ is an A/B testing framework written in Swift.
 
-🏗 Work in progress 🏗
+Read more about the motivation on [my blog](https://benoitpasquier.com/reversi-ab-testing-framework-ios/).
 
 ## Content
 
