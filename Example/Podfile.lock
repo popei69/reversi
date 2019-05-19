@@ -76,7 +76,7 @@ PODS:
   - OptimizelySDKUserProfileService (2.1.6):
     - OptimizelySDKShared (= 2.1.6)
   - Protobuf (3.6.1)
-  - Reversi (0.1.0)
+  - Reversi (1.0.0)
 
 DEPENDENCIES:
   - Firebase/RemoteConfig
@@ -123,7 +123,7 @@ SPEC CHECKSUMS:
   OptimizelySDKShared: c22ce9ab4e12d39920b9d6706bda796288b1d239
   OptimizelySDKUserProfileService: 042b1993fec0e44124c412422c7d52bd892ac139
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
-  Reversi: 211dee1334700e516ad0be5920ecc364d6807196
+  Reversi: 9ea70a3404d1b7c7d01a2692f629256cdc5ae396
 
 PODFILE CHECKSUM: c52d9efc51afe9aa4878e4b03c7f03c473741089
 

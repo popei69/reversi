@@ -22,7 +22,7 @@ Reversi is an open source A/B Testing framework written in Swift to keep a clean
   s.source           = { :git => 'https://github.com/popei69/Reversi.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/BenoitPasquier_'
   s.ios.deployment_target = '9.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.source_files = 'Reversi/Classes/**/*'
   
   # s.resource_bundles = {

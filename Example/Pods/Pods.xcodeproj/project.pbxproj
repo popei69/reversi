@@ -3442,9 +3442,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		203D28AA0020ABA32936E345627A944B /* Debug */ = {
+		04F1FBEAB03781311284A74C747BDF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
+			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3455,27 +3455,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
-				PRODUCT_MODULE_NAME = FirebaseCore;
-				PRODUCT_NAME = FirebaseCore;
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2600C2C40055F8882C36AAFC179BBEEA /* Debug */ = {
+		0E701E4BE1B870D8375943D9CAF70F47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
+			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3486,23 +3486,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKShared;
-				PRODUCT_NAME = OptimizelySDKShared;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
+				PRODUCT_NAME = OptimizelySDKiOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		2E2C6AFFE216C3B112ABF3DCEDD79683 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3551,9 +3552,9 @@
 			};
 			name = Debug;
 		};
-		319A2EB4069660EF2ADDCCD215055184 /* Debug */ = {
+		38819A9B5ACA47FFD1901F17318A9DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
+			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3564,23 +3565,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Reversi/Reversi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reversi/Reversi-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reversi/Reversi.modulemap";
-				PRODUCT_MODULE_NAME = Reversi;
-				PRODUCT_NAME = Reversi;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
+				PRODUCT_MODULE_NAME = FirebaseCore;
+				PRODUCT_NAME = FirebaseCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		3D6E09DA53D625800DDD9981F40AE2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3595,6 +3597,68 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		4240D364BEB8D8A506DC2A2FC4DFE35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
+				PRODUCT_MODULE_NAME = FirebaseCore;
+				PRODUCT_NAME = FirebaseCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5234098D408953D5057A12C7EE95A944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKShared;
+				PRODUCT_NAME = OptimizelySDKShared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		569441FA25332725E9AD3F039ACF05DB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3662,9 +3726,9 @@
 			};
 			name = Debug;
 		};
-		5A498FC9561D5F013715EFD5F70BAAA2 /* Debug */ = {
+		5DE4918B42BF23DEF1F8F04408CA92BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3675,49 +3739,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_MODULE_NAME = nanopb;
-				PRODUCT_NAME = nanopb;
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5BEFE91E6B856013E859E370D53B3114 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
-				PRODUCT_NAME = OptimizelySDKDatafileManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3751,9 +3784,9 @@
 			};
 			name = Debug;
 		};
-		6CCD34FB6E90906A3EBBECE0C1B90F35 /* Release */ = {
+		6EC40ACFC7F711D5C0CC11AB3083838E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3764,91 +3797,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
-				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
+				PRODUCT_NAME = OptimizelySDKDatafileManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7105A871B7B61926357CABC8D731B960 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
-				PRODUCT_NAME = OptimizelySDKiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		712D49EC178E303C88D68ED7AFBB653C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
-				PRODUCT_MODULE_NAME = GoogleUtilities;
-				PRODUCT_NAME = GoogleUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7336367687DEB1D65DF4E0FDC564C6EE /* Release */ = {
+		700C7873EB64834AE7C7E40E250133C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3859,55 +3828,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_MODULE_NAME = nanopb;
-				PRODUCT_NAME = nanopb;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKUserProfileService;
+				PRODUCT_NAME = OptimizelySDKUserProfileService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7365AEB4C144C5980FC73FAE04666348 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		762502210AA7A87021EC24C94A84A928 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3977,9 +3915,9 @@
 			};
 			name = Debug;
 		};
-		7FE5BD1944188A1F8DAF3F0AD4AAAE16 /* Debug */ = {
+		80C6CBCEEE473450406ABCDF957EE8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3990,27 +3928,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
-				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
+				PRODUCT_NAME = OptimizelySDKiOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8E5CA3D6D2E60763A508A01AB44ED985 /* Release */ = {
+		8C49EF8C0C0E0F9ED9FF0C629AA6006E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
+			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4021,18 +3959,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
-				PRODUCT_MODULE_NAME = GoogleUtilities;
-				PRODUCT_NAME = GoogleUtilities;
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4051,6 +3989,38 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9F50B3BB5CC34A6E9AA40A8502929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKCore;
+				PRODUCT_NAME = OptimizelySDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -4088,9 +4058,9 @@
 			};
 			name = Release;
 		};
-		A3BDBD6A19D0B6DEE85AF5967D7E1262 /* Release */ = {
+		AA0F54790E667485879E0C67B8AAB09A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
+			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4101,18 +4071,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Reversi/Reversi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reversi/Reversi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
-				PRODUCT_NAME = OptimizelySDKDatafileManager;
+				MODULEMAP_FILE = "Target Support Files/Reversi/Reversi.modulemap";
+				PRODUCT_MODULE_NAME = Reversi;
+				PRODUCT_NAME = Reversi;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4197,9 +4167,9 @@
 			};
 			name = Debug;
 		};
-		B5D412CE749C83DF9370D24527D624B2 /* Debug */ = {
+		AE333A26B313F71E9B08A27C718EE098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
+			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4210,25 +4180,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKCore;
-				PRODUCT_NAME = OptimizelySDKCore;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
+				PRODUCT_NAME = OptimizelySDKEventDispatcher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C72ABB5398B4353B37AEDC230298A2EA /* Release */ = {
+		B83D91826C87D848FB8914A9A18F55BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
+				PRODUCT_NAME = OptimizelySDKDatafileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCDC693E742029F9CB9B8DC035B51A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
 			buildSettings = {
@@ -4252,142 +4254,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD10AD52F345275090095EE538957D51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
-				PRODUCT_MODULE_NAME = FirebaseCore;
-				PRODUCT_NAME = FirebaseCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CDFFA8334B6F69E3EB017DD100A9DF16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKCore;
-				PRODUCT_NAME = OptimizelySDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DA392CC3E05A519A36B26234C7E7AAE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0D593618D84A51FC7C3320252BC6DB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
-				PRODUCT_NAME = OptimizelySDKiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EF1A2F38A223C7E99F08470F89C933B4 /* Debug */ = {
+		BF55E4409769DC6ED7F157982BA5F9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
 			buildSettings = {
@@ -4411,7 +4285,134 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB98DD7E64675E890DA6D567EA36ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFDFD7912DAFB501D63B7F5533B3B59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F4273ED77974EA11DB083061A7E316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
+				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E392D1820A0AACED2568117E29D4000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4478,7 +4479,7 @@
 			};
 			name = Release;
 		};
-		F9E7607B7CF25B9394A44D94B2A86524 /* Release */ = {
+		F4D16AD80CFB3ADD037CA4877AFD9D54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
 			buildSettings = {
@@ -4502,7 +4503,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4510,9 +4511,9 @@
 			};
 			name = Release;
 		};
-		FD489CEBF29312C6CDD74BBB80F85DDF /* Release */ = {
+		FB4E51CBDD9207346D91D40BB1548D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
+			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4523,24 +4524,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKUserProfileService;
-				PRODUCT_NAME = OptimizelySDKUserProfileService;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKCore;
+				PRODUCT_NAME = OptimizelySDKCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FE544ABC1F0D3574FD87D2FEBA7FAF20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4561,8 +4561,8 @@
 		11D4E1CA8C27085987FAC149DE6E145B /* Build configuration list for PBXNativeTarget "nanopb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A498FC9561D5F013715EFD5F70BAAA2 /* Debug */,
-				7336367687DEB1D65DF4E0FDC564C6EE /* Release */,
+				E392D1820A0AACED2568117E29D4000A /* Debug */,
+				8C49EF8C0C0E0F9ED9FF0C629AA6006E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4570,8 +4570,8 @@
 		1EA6E0A70AB38EFE7044A936E9C9AD26 /* Build configuration list for PBXNativeTarget "OptimizelySDKUserProfileService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF1A2F38A223C7E99F08470F89C933B4 /* Debug */,
-				FD489CEBF29312C6CDD74BBB80F85DDF /* Release */,
+				BF55E4409769DC6ED7F157982BA5F9A5 /* Debug */,
+				700C7873EB64834AE7C7E40E250133C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4588,8 +4588,8 @@
 		3C922E83DCAFB6909700C5FDDEF9F640 /* Build configuration list for PBXNativeTarget "OptimizelySDKShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2600C2C40055F8882C36AAFC179BBEEA /* Debug */,
-				F9E7607B7CF25B9394A44D94B2A86524 /* Release */,
+				5234098D408953D5057A12C7EE95A944 /* Debug */,
+				F4D16AD80CFB3ADD037CA4877AFD9D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4597,8 +4597,8 @@
 		432747CE291293F1A172C4AD0BEE1710 /* Build configuration list for PBXNativeTarget "FirebaseCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				203D28AA0020ABA32936E345627A944B /* Debug */,
-				CD10AD52F345275090095EE538957D51 /* Release */,
+				4240D364BEB8D8A506DC2A2FC4DFE35B /* Debug */,
+				38819A9B5ACA47FFD1901F17318A9DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4651,8 +4651,8 @@
 		7ADC67E497AC27F95EABBDC158681875 /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7365AEB4C144C5980FC73FAE04666348 /* Debug */,
-				DA392CC3E05A519A36B26234C7E7AAE2 /* Release */,
+				5DE4918B42BF23DEF1F8F04408CA92BE /* Debug */,
+				DFDFD7912DAFB501D63B7F5533B3B59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4660,8 +4660,8 @@
 		8A5D98EBD8CCF079483D101C98BCAEF2 /* Build configuration list for PBXNativeTarget "Reversi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319A2EB4069660EF2ADDCCD215055184 /* Debug */,
-				C72ABB5398B4353B37AEDC230298A2EA /* Release */,
+				BCDC693E742029F9CB9B8DC035B51A4A /* Debug */,
+				AA0F54790E667485879E0C67B8AAB09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4669,8 +4669,8 @@
 		ADFF60B9CCE0BF3E101F8FF6470A78D5 /* Build configuration list for PBXNativeTarget "OptimizelySDKCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5D412CE749C83DF9370D24527D624B2 /* Debug */,
-				CDFFA8334B6F69E3EB017DD100A9DF16 /* Release */,
+				FB4E51CBDD9207346D91D40BB1548D35 /* Debug */,
+				9B9F50B3BB5CC34A6E9AA40A8502929A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4678,8 +4678,8 @@
 		BA4637EC59D6853F63340E448D74CC04 /* Build configuration list for PBXNativeTarget "OptimizelySDKEventDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FE5BD1944188A1F8DAF3F0AD4AAAE16 /* Debug */,
-				6CCD34FB6E90906A3EBBECE0C1B90F35 /* Release */,
+				AE333A26B313F71E9B08A27C718EE098 /* Debug */,
+				E0F4273ED77974EA11DB083061A7E316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4696,8 +4696,8 @@
 		C078B20C55DA17E319D298986C4FF9DA /* Build configuration list for PBXNativeTarget "OptimizelySDKDatafileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BEFE91E6B856013E859E370D53B3114 /* Debug */,
-				A3BDBD6A19D0B6DEE85AF5967D7E1262 /* Release */,
+				6EC40ACFC7F711D5C0CC11AB3083838E /* Debug */,
+				B83D91826C87D848FB8914A9A18F55BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4723,8 +4723,8 @@
 		EA7C3E4D70919821DE886937A1D17B23 /* Build configuration list for PBXNativeTarget "OptimizelySDKiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D593618D84A51FC7C3320252BC6DB2 /* Debug */,
-				7105A871B7B61926357CABC8D731B960 /* Release */,
+				80C6CBCEEE473450406ABCDF957EE8A9 /* Debug */,
+				0E701E4BE1B870D8375943D9CAF70F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4732,8 +4732,8 @@
 		F01C28344C9807F081574241D00F2576 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				712D49EC178E303C88D68ED7AFBB653C /* Debug */,
-				8E5CA3D6D2E60763A508A01AB44ED985 /* Release */,
+				04F1FBEAB03781311284A74C747BDF49 /* Debug */,
+				CB98DD7E64675E890DA6D567EA36ED32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
