@@ -17,7 +17,6 @@
 				A4BE9E12E43C03D8931CC7FA83460B05 /* PBXTargetDependency */,
 			);
 			name = GoogleAppMeasurement;
-			productName = GoogleAppMeasurement;
 		};
 		4C8C2FF43BC34D2B6915C149FC53812A /* Firebase */ = {
 			isa = PBXAggregateTarget;
@@ -30,7 +29,6 @@
 				BBEC8538689A24739BE42EFF5DC58F9E /* PBXTargetDependency */,
 			);
 			name = Firebase;
-			productName = Firebase;
 		};
 		4EFCC66818F870573016176527EA100A /* FirebaseInstanceID */ = {
 			isa = PBXAggregateTarget;
@@ -42,7 +40,6 @@
 				B8BCC7479B50E786D3118C2792C27E9F /* PBXTargetDependency */,
 			);
 			name = FirebaseInstanceID;
-			productName = FirebaseInstanceID;
 		};
 		59FA47CE145E426AE4C85A8D51DD7D5D /* FirebaseABTesting */ = {
 			isa = PBXAggregateTarget;
@@ -54,7 +51,6 @@
 				B8D473F403856767197055FD6C257F4D /* PBXTargetDependency */,
 			);
 			name = FirebaseABTesting;
-			productName = FirebaseABTesting;
 		};
 		743A87271921E7E3CC9AE9948417E9D1 /* FirebaseAnalytics */ = {
 			isa = PBXAggregateTarget;
@@ -69,7 +65,6 @@
 				D2E4A11A5C2160881B47DDA142AE17B4 /* PBXTargetDependency */,
 			);
 			name = FirebaseAnalytics;
-			productName = FirebaseAnalytics;
 		};
 		BD8C6AB5D4C759A8F4948EB1EEC1727F /* FirebaseRemoteConfig */ = {
 			isa = PBXAggregateTarget;
@@ -85,7 +80,6 @@
 				F8BB81E32B9DBAD409644234AE2ABEF3 /* PBXTargetDependency */,
 			);
 			name = FirebaseRemoteConfig;
-			productName = FirebaseRemoteConfig;
 		};
 /* End PBXAggregateTarget section */
 
@@ -830,7 +824,7 @@
 		260467D74071F482A26346D38E49D0E2 /* OPTLYDatabaseEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatabaseEntity.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDatabaseEntity.m; sourceTree = "<group>"; };
 		26888BC316A36725A1610BDAE12557E1 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
 		26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.xcconfig; sourceTree = "<group>"; };
-		27BFDEBC5A11E26C6C3A9DBB58493CCC /* OptimizelySDKEventDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKEventDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BFDEBC5A11E26C6C3A9DBB58493CCC /* OptimizelySDKEventDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKEventDispatcher.framework; path = OptimizelySDKEventDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		287F59A48C93C81012BD944BC8F588C6 /* Pods-Reversi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reversi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		29809C52A51B7C93C9EBC035E7823151 /* OPTLYProjectConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYProjectConfig.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYProjectConfig.h; sourceTree = "<group>"; };
 		298E068849AB8599DFFA635FE27B1A3F /* GULNetworkMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkMessageCode.h; path = GoogleUtilities/Network/Private/GULNetworkMessageCode.h; sourceTree = "<group>"; };
@@ -848,7 +842,7 @@
 		2E51F903B4F55A52EFA47A2F769D530C /* FIROptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIROptions.h; path = Firebase/Core/Public/FIROptions.h; sourceTree = "<group>"; };
 		2EBB3852087E45D4CD1CC198DC836AEC /* OPTLYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYLogger.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLogger.h; sourceTree = "<group>"; };
 		2F325B57E468C840E99B2DECE90719E0 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
-		2FE57B24F06E72FD9C9937517897721C /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE57B24F06E72FD9C9937517897721C /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Protobuf.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30188597C9D63B6EE34B3E3E03E33924 /* OPTLYEventLayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventLayerState.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventLayerState.h; sourceTree = "<group>"; };
 		30B534761BD029BE71A8E6A77F215CBB /* OPTLYClientBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYClientBuilder.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYClientBuilder.h; sourceTree = "<group>"; };
 		3200C78CFDAD29B04A84A93A37CB6755 /* Pods-Reversi_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Reversi_Tests.modulemap"; sourceTree = "<group>"; };
@@ -860,7 +854,7 @@
 		35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
 		35D60603F61DAE47821E8C803A4E0989 /* OPTLYEventTagUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventTagUtil.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventTagUtil.h; sourceTree = "<group>"; };
 		36517B48AEE1337BFA92996E9B0CB550 /* FIRApp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRApp.m; path = Firebase/Core/FIRApp.m; sourceTree = "<group>"; };
-		369850F41942B94B462EB89CF8E1F19C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		369850F41942B94B462EB89CF8E1F19C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		369A82EBB337A962B97976A13D3357C3 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		3742FB19D9536E9B9817EF7D76EFC374 /* OPTLYNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYNotificationCenter.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYNotificationCenter.h; sourceTree = "<group>"; };
 		37A5A38BE1DD7A5135E6BF414AE15BA0 /* OPTLYLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYLog.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLog.h; sourceTree = "<group>"; };
@@ -915,7 +909,7 @@
 		554256BE7A5AEB897C9E375AAA6CF127 /* FIRLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRLogger.h; path = Firebase/Core/Private/FIRLogger.h; sourceTree = "<group>"; };
 		55E31DFD20F8D066BCBBA1A791C587A9 /* GULLoggerLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerLevel.h; path = GoogleUtilities/Logger/Public/GULLoggerLevel.h; sourceTree = "<group>"; };
 		566A1409A540294218393E3369492FBE /* Pods-Reversi_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reversi_Example-Info.plist"; sourceTree = "<group>"; };
-		569747FEFB00FA76D1525935778F6C23 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_encode.c; sourceTree = "<group>"; };
+		569747FEFB00FA76D1525935778F6C23 /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
 		56E03C6D6A557238886462B52DB7C524 /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
 		5879F2FBEBB05110721D6E1FF6A62D85 /* OPTLYEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEvent.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEvent.h; sourceTree = "<group>"; };
 		59293B016623934AE9E1448E12E32C4F /* OPTLYEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEvent.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEvent.m; sourceTree = "<group>"; };
@@ -932,7 +926,7 @@
 		5F5036A919871B8B1C988842F41BB07C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		602932CC1424EE9CEA0A41FFBB17089A /* OPTLYCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYCondition.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYCondition.h; sourceTree = "<group>"; };
 		6186C0F96F68936475476B8D75007974 /* OPTLYDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYDatabase.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDatabase.h; sourceTree = "<group>"; };
-		62242C929200299D9FBC9563C4A7601E /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62242C929200299D9FBC9563C4A7601E /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BBB6F9EF98D796D8F069E0F4377C34 /* OPTLYQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYQueue.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYQueue.h; sourceTree = "<group>"; };
 		631368C4C02D4BF59C9C32714E36087A /* FirebaseCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FirebaseCore-Info.plist"; sourceTree = "<group>"; };
 		63DDA4B6999AB2384A9502F2E5A141F5 /* OptimizelySDKEventDispatcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OptimizelySDKEventDispatcher-Info.plist"; sourceTree = "<group>"; };
@@ -941,7 +935,7 @@
 		66A46620A7248F210BB85CF5220A17C4 /* Pods-Reversi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reversi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		67000E3E79DEE097F573F756553136C1 /* OPTLYHTTPRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYHTTPRequestManager.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYHTTPRequestManager.h; sourceTree = "<group>"; };
 		67AB889F788A1BA3232572F88217C3F0 /* OPTLYExperimentBucketMapEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYExperimentBucketMapEntity.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYExperimentBucketMapEntity.m; sourceTree = "<group>"; };
-		680357C61B5E7C6E2ADFEE6A007ECEFA /* Apptimize.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = Apptimize.md; path = Docs/Apptimize.md; sourceTree = "<group>"; };
+		680357C61B5E7C6E2ADFEE6A007ECEFA /* Apptimize.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Apptimize.md; path = Docs/Apptimize.md; sourceTree = "<group>"; };
 		690234903FE60D4C0B07F10A5DBE7BF6 /* OPTLYManagerBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYManagerBuilder.h; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYManagerBuilder.h; sourceTree = "<group>"; };
 		6926CB5F981CEB85CAB621AAB003A73F /* OPTLYEventRelatedEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventRelatedEvent.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventRelatedEvent.h; sourceTree = "<group>"; };
 		6A5A52C0D6652E571A6267104429AC20 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
@@ -949,7 +943,7 @@
 		6B1DAB58993ED123294E17E550E68F8A /* OptimizelySDKCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizelySDKCore.h; path = OptimizelySDKCore/OptimizelySDKCore/OptimizelySDKCore.h; sourceTree = "<group>"; };
 		6B753E200E47437FA54989E1FFE7F532 /* Pods-Reversi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reversi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BC62A78B719868321423D13665C2ADB /* OPTLYUserProfileServiceBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYUserProfileServiceBasic.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYUserProfileServiceBasic.h; sourceTree = "<group>"; };
-		6C2EE0CFBBD59AB7573E396EF8BEEFE9 /* Pods_Reversi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reversi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2EE0CFBBD59AB7573E396EF8BEEFE9 /* Pods_Reversi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reversi_Tests.framework; path = "Pods-Reversi_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3E1826C52AA5AC6E5606D28732FC50 /* Optimizely.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Optimizely.h; path = OptimizelySDKCore/OptimizelySDKCore/Optimizely.h; sourceTree = "<group>"; };
 		6CD61FA8C00BFC24189E41304ED1B610 /* OptimizelySDKUserProfileService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OptimizelySDKUserProfileService-Info.plist"; sourceTree = "<group>"; };
 		6D27186A550DF7D94455528BF0950DCA /* OPTLYBucketer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYBucketer.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYBucketer.h; sourceTree = "<group>"; };
@@ -960,7 +954,7 @@
 		71968A4B95D67AD9A40ABCF400C428C6 /* OptimizelySDKUserProfileService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimizelySDKUserProfileService.modulemap; sourceTree = "<group>"; };
 		756AF483497901015315148AD0FC7398 /* OPTLYEventParameterKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventParameterKeys.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventParameterKeys.m; sourceTree = "<group>"; };
 		76B4E254AC53B3A660F0B98E84E3714B /* OPTLYEventDecision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDecision.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDecision.h; sourceTree = "<group>"; };
-		778DC2A8598A44E9040ED3951925837D /* OptimizelySDKDatafileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKDatafileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		778DC2A8598A44E9040ED3951925837D /* OptimizelySDKDatafileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKDatafileManager.framework; path = OptimizelySDKDatafileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E141B6B5D530FADC691769B82E6BB5 /* OPTLYQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYQueue.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYQueue.m; sourceTree = "<group>"; };
 		780E7CDA84698194A9390B976F518E22 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
 		784E82F1DA9F76A5E0C712B718C23E48 /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
@@ -975,10 +969,10 @@
 		8242415604F98D1D28B086804F2FAB76 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = Frameworks/FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
 		82B3856F0B5241EAEE576F88E6D5F3D2 /* OPTLYClientBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYClientBuilder.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYClientBuilder.m; sourceTree = "<group>"; };
 		83E9B201D3C9E681FEE452A9D8711359 /* OPTLYVariation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYVariation.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYVariation.m; sourceTree = "<group>"; };
-		8487AECDED97876F0304C83CED529CDC /* Optimizely.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = Optimizely.md; path = Docs/Optimizely.md; sourceTree = "<group>"; };
+		8487AECDED97876F0304C83CED529CDC /* Optimizely.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Optimizely.md; path = Docs/Optimizely.md; sourceTree = "<group>"; };
 		84D9B8D1C275EF681838297035560466 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
 		84E2CF868E586B648CCFDB775140F406 /* OptimizelySDKEventDispatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKEventDispatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84F0F018D4F165244C1AB880DBF20B5A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F0F018D4F165244C1AB880DBF20B5A /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleUtilities.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		860A74A9B3E3270484F68489972B9EBD /* FIRLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIRLogger.m; path = Firebase/Core/FIRLogger.m; sourceTree = "<group>"; };
 		86C3CC4E243603EAAF992CD376B7BD17 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
 		887C633ED5F6046B9A5AEAAB4D71B787 /* OPTLYFMDBDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYFMDBDatabaseQueue.h; path = OptimizelySDKShared/OPTLYFMDB/src/optlyfmdb/OPTLYFMDBDatabaseQueue.h; sourceTree = "<group>"; };
@@ -991,10 +985,10 @@
 		9145FEB654A80B5AEEF2146FA4FF714B /* OptimizelySDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		927EC11407EF9D61BB5BA46B9A2F5A57 /* VariationCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VariationCompatible.swift; path = Reversi/Classes/VariationCompatible.swift; sourceTree = "<group>"; };
 		93A1DC6D81F910BAB8D99B00BA582618 /* OPTLYUserProfileServiceBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYUserProfileServiceBuilder.m; path = OptimizelySDKUserProfileService/OptimizelySDKUserProfileService/OPTLYUserProfileServiceBuilder.m; sourceTree = "<group>"; };
-		93B395983F27FD17D6786AA6AB76C005 /* Reversi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Reversi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B395983F27FD17D6786AA6AB76C005 /* Reversi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Reversi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94B76D966AEEE6C490387F8B0BAD1D8B /* Reversi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reversi-dummy.m"; sourceTree = "<group>"; };
 		951B0E4629D9C1ACB040B974DA10C17E /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
-		961149CE6478E0FD1876A5CD45978F12 /* OptimizelySDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961149CE6478E0FD1876A5CD45978F12 /* OptimizelySDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKCore.framework; path = OptimizelySDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B1227A5BE42152154871F39AB81B8C /* GoogleUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleUtilities-dummy.m"; sourceTree = "<group>"; };
 		96FAE8A97FD28E64985D29D5840112F3 /* OPTLYAudience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYAudience.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYAudience.h; sourceTree = "<group>"; };
 		976EAD39B07BF8A68DA2540C45708DCB /* Pods-Reversi_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reversi_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -1011,7 +1005,7 @@
 		9B6E2D6F6DC99353722F7252BFA0F3ED /* OptimizelySDKEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OptimizelySDKEventDispatcher.h; path = OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.h; sourceTree = "<group>"; };
 		9BA4F31B3D784E360B839E7FF232A548 /* OPTLYNetworkService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYNetworkService.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYNetworkService.h; sourceTree = "<group>"; };
 		9C63F53AEB219E976970E7CE6EF46FC2 /* OPTLYEventDispatcherBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDispatcherBasic.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDispatcherBasic.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0958752A0720C189BBEB9A9850BBCD /* Pods-Reversi_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reversi_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9F0A9EE638E764A9E3BC0E517D96123E /* Struct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Struct.pbobjc.m; path = objectivec/google/protobuf/Struct.pbobjc.m; sourceTree = "<group>"; };
 		9FFACF724D6EF241D95647078CC90CC6 /* OPTLYManagerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYManagerBase.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYManagerBase.m; sourceTree = "<group>"; };
@@ -1019,11 +1013,11 @@
 		A117CDAA9254D60652D0E27FCA1E4FDB /* OPTLYDatafileKeys.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatafileKeys.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYDatafileKeys.m; sourceTree = "<group>"; };
 		A143D9B7010C1BCF396D66746D936AE8 /* FirebaseCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FirebaseCore.h; path = Firebase/Core/Public/FirebaseCore.h; sourceTree = "<group>"; };
 		A2C29DCA0B00F31EA8E32B34DE2BB6C8 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
-		A2D965FC9F11C258ACF121A96645CD7C /* OptimizelySDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D965FC9F11C258ACF121A96645CD7C /* OptimizelySDKiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKiOS.framework; path = OptimizelySDKiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A339D971292540FB391AA4A2C53FA68A /* OPTLYFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYFMDB.h; path = OptimizelySDKShared/OPTLYFMDB/src/optlyfmdb/OPTLYFMDB.h; sourceTree = "<group>"; };
 		A3A80F18BFC2513071E2CE799844A6C4 /* OptimizelySDKShared-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKShared-prefix.pch"; sourceTree = "<group>"; };
 		A3EDEEB28EF18487D140C00C80740FE9 /* Protobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-umbrella.h"; sourceTree = "<group>"; };
-		A51F1784A78B9E7287FD9901B0AB2BF7 /* Firebase.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = Firebase.md; path = Docs/Firebase.md; sourceTree = "<group>"; };
+		A51F1784A78B9E7287FD9901B0AB2BF7 /* Firebase.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Firebase.md; path = Docs/Firebase.md; sourceTree = "<group>"; };
 		A55F2599D98F0C8F81F0BE82152719AB /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
 		A5CB32642A6424A42E8042F7A6F82AEC /* OPTLYLoggerMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYLoggerMessages.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYLoggerMessages.h; sourceTree = "<group>"; };
 		A5D0D45D4A441C12D956449159EF9947 /* OPTLYFMDBResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYFMDBResultSet.h; path = OptimizelySDKShared/OPTLYFMDB/src/optlyfmdb/OPTLYFMDBResultSet.h; sourceTree = "<group>"; };
@@ -1031,7 +1025,7 @@
 		A68DCEF784F80EA0538F7A54CD505FA0 /* OPTLYEventDispatcherBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventDispatcherBuilder.m; path = OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher/OPTLYEventDispatcherBuilder.m; sourceTree = "<group>"; };
 		A753A06E856DD687DC234EA2BE04F8B1 /* OPTLYErrorHandlerMessages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYErrorHandlerMessages.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYErrorHandlerMessages.h; sourceTree = "<group>"; };
 		A777890BAE3A05B70634AE3FA04C04EF /* OPTLYJSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYJSONValueTransformer.m; path = OptimizelySDKCore/OPTLYJSONModel/OPTLYJSONModel/OPTLYJSONModelTransformations/OPTLYJSONValueTransformer.m; sourceTree = "<group>"; };
-		A7FB916BED57D6DB1CCFB6B32641F531 /* Reversi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reversi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FB916BED57D6DB1CCFB6B32641F531 /* Reversi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reversi.framework; path = Reversi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BCBE9AC8CFD87F48F6523713DA1F1F /* OPTLYAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYAttribute.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYAttribute.h; sourceTree = "<group>"; };
 		A8FCACBEDD44A4C3A84EDA71901DAE89 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
 		A9096D2D9E2442D1BC95A69E623ED111 /* OPTLYEventDecisionTicket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventDecisionTicket.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventDecisionTicket.h; sourceTree = "<group>"; };
@@ -1050,7 +1044,7 @@
 		AFE261EBC59256FB5EB7764CC805CC93 /* GULUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULUserDefaults.m; path = GoogleUtilities/UserDefaults/GULUserDefaults.m; sourceTree = "<group>"; };
 		B01D636B8BE80701D5E1B05467DC5E19 /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		B054C604DB6DAF6DB6D3EA1BE12FBDDD /* OPTLYAudience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYAudience.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYAudience.m; sourceTree = "<group>"; };
-		B056233784CF76F0E5FF0676A8153B2D /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_decode.c; sourceTree = "<group>"; };
+		B056233784CF76F0E5FF0676A8153B2D /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		B08BECA3398B96E67FACBE2C0263EE21 /* GoogleAppMeasurement.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleAppMeasurement.xcconfig; sourceTree = "<group>"; };
 		B0C04FAD3C051241E348437ECFEA5E47 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
 		B15248878626ED171CDD5A01DD03A98D /* OPTLYEventBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYEventBuilder.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventBuilder.m; sourceTree = "<group>"; };
@@ -1120,8 +1114,8 @@
 		D0EDD5B732177EB0DFD758BCA2AE54EB /* OPTLYDecisionService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYDecisionService.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYDecisionService.h; sourceTree = "<group>"; };
 		D16483B8245C5CED9F599EEF19772A1F /* OPTLYFMDBDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYFMDBDatabaseQueue.m; path = OptimizelySDKShared/OPTLYFMDB/src/optlyfmdb/OPTLYFMDBDatabaseQueue.m; sourceTree = "<group>"; };
 		D203CABB8937928CACF7432FB4F0D8FC /* OptimizelySDKCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimizelySDKCore.modulemap; sourceTree = "<group>"; };
-		D47716EB68DB6437B4BAA143C1C9CE86 /* OptimizelySDKUserProfileService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKUserProfileService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4939E6A834366424183EBCC1A2779B9 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47716EB68DB6437B4BAA143C1C9CE86 /* OptimizelySDKUserProfileService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKUserProfileService.framework; path = OptimizelySDKUserProfileService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4939E6A834366424183EBCC1A2779B9 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FirebaseCore.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5610E8FA49BCDF0F3E180F28D5072DD /* OptimizelySDKDatafileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizelySDKDatafileManager-dummy.m"; sourceTree = "<group>"; };
 		D5DAC9CED6E28D639249620421A461E8 /* OptimizelySDKCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizelySDKCore-umbrella.h"; sourceTree = "<group>"; };
 		D5DB489175A42F46050848CB3525686F /* OPTLYClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYClient.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYClient.m; sourceTree = "<group>"; };
@@ -1130,7 +1124,7 @@
 		D80415331E2F684167F6AAA70EC52E0E /* OPTLYVariationVariable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYVariationVariable.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYVariationVariable.m; sourceTree = "<group>"; };
 		D82D3C932BFCAF0C7A1960D026DDE70D /* GULReachabilityChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULReachabilityChecker.m; path = GoogleUtilities/Reachability/GULReachabilityChecker.m; sourceTree = "<group>"; };
 		D8666A359C5C5183379256B5E119D409 /* OptimizelySDKCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OptimizelySDKCore-Info.plist"; sourceTree = "<group>"; };
-		D9C686DA5BED0A8253340102E2199AE3 /* murmur3.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = murmur3.c; path = OptimizelySDKCore/Frameworks/murmur/murmur3.c; sourceTree = "<group>"; };
+		D9C686DA5BED0A8253340102E2199AE3 /* murmur3.c */ = {isa = PBXFileReference; includeInIndex = 1; name = murmur3.c; path = OptimizelySDKCore/Frameworks/murmur/murmur3.c; sourceTree = "<group>"; };
 		D9CDBD0DFE73AF364B2F1EE5EA808DCB /* OPTLYDatafileManagerBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatafileManagerBuilder.m; path = OptimizelySDKDatafileManager/OptimizelySDKDatafileManager/OPTLYDatafileManagerBuilder.m; sourceTree = "<group>"; };
 		DA7F0A4CEC133B1457A2271141D557D4 /* OPTLYNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYNotificationCenter.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYNotificationCenter.m; sourceTree = "<group>"; };
 		DAC741F85C19F7F1AE4ABC10B23E242C /* OPTLYDecisionService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDecisionService.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYDecisionService.m; sourceTree = "<group>"; };
@@ -1139,8 +1133,8 @@
 		DCC339AECE0259C74ED7A316537AA8C6 /* FirebaseCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FirebaseCore-umbrella.h"; sourceTree = "<group>"; };
 		DD517C33ABD5FF5122BAB9369E0EEFE2 /* OPTLYDatafileManagerBasic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYDatafileManagerBasic.m; path = OptimizelySDKShared/OptimizelySDKShared/OPTLYDatafileManagerBasic.m; sourceTree = "<group>"; };
 		DD54EE7FD12D43AF46C16EDF07EE2F52 /* OPTLYFeatureVariable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYFeatureVariable.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYFeatureVariable.h; sourceTree = "<group>"; };
-		DEE283ED78A044AB1EBBE7E14C8C7BB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DFA82E3B5F26D14468B114551FB18EBE /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = pb_common.c; sourceTree = "<group>"; };
+		DEE283ED78A044AB1EBBE7E14C8C7BB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DFA82E3B5F26D14468B114551FB18EBE /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
 		DFC625FB044843C5D1BDDD40A60F14CD /* OPTLYBucketer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OPTLYBucketer.m; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYBucketer.m; sourceTree = "<group>"; };
 		E13A6A0D3911B9BC45F643D4A3772293 /* ReversiConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReversiConfiguration.swift; path = Reversi/Classes/ReversiConfiguration.swift; sourceTree = "<group>"; };
 		E1E5C7D8300A5F56C8C63D6D0D059C8F /* OPTLYErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYErrorHandler.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYErrorHandler.h; sourceTree = "<group>"; };
@@ -1151,7 +1145,7 @@
 		E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebaseCore.xcconfig; sourceTree = "<group>"; };
 		E62A78C11BC7C80FC37B2EB3BBC2DCA1 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
 		E6C5B9DB991FB602753933C204169F5E /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
-		E6F49C9A97962C9B203615A5C4A3B03C /* Pods_Reversi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reversi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F49C9A97962C9B203615A5C4A3B03C /* Pods_Reversi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reversi_Example.framework; path = "Pods-Reversi_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71D6CE95017D15FC79450C03B145B78 /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = objectivec/GPBDictionary.h; sourceTree = "<group>"; };
 		E7B1D020595EC14774A100A6086C8AAF /* OptimizelySDKiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimizelySDKiOS.modulemap; sourceTree = "<group>"; };
 		E7BC6F974E3A26916902B25BD58BEFB3 /* Optimizely.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Optimizely.m; path = OptimizelySDKCore/OptimizelySDKCore/Optimizely.m; sourceTree = "<group>"; };
@@ -1185,7 +1179,7 @@
 		FAC086F7F1BA86D9E9C55E430FD88BE3 /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
 		FBDDA02CF3E217B936C94F1D0E13E016 /* OPTLYEventParameterKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OPTLYEventParameterKeys.h; path = OptimizelySDKCore/OptimizelySDKCore/OPTLYEventParameterKeys.h; sourceTree = "<group>"; };
 		FBEA24A06E6D731D08D023CAF88442A2 /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = objectivec/GPBDescriptor.m; sourceTree = "<group>"; };
-		FC3515630C721ACB26D5AE73BC9F3C43 /* OptimizelySDKShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptimizelySDKShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3515630C721ACB26D5AE73BC9F3C43 /* OptimizelySDKShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OptimizelySDKShared.framework; path = OptimizelySDKShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9B05C655CFB6F687CDF2AC02D85917 /* OptimizelySDKDatafileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OptimizelySDKDatafileManager.modulemap; sourceTree = "<group>"; };
 		FD95018D54809894F63FB3E8ABCDF49E /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
 		FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.xcconfig; sourceTree = "<group>"; };
@@ -1381,6 +1375,7 @@
 				B4C89FE5064C68E991AE109B50290468 /* Frameworks */,
 				80E75B9CAC4E398F415D6A79FB541004 /* Support Files */,
 			);
+			name = FirebaseAnalytics;
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
@@ -1417,6 +1412,7 @@
 				505961660F71428F45D4F054E72C9A3D /* OPTLYManager.m */,
 				3D9F0A99893FA2408F0323DEAB1A7D8A /* Support Files */,
 			);
+			name = OptimizelySDKiOS;
 			path = OptimizelySDKiOS;
 			sourceTree = "<group>";
 		};
@@ -1475,6 +1471,7 @@
 				1110CF7D89DD29B05E79D5A0872F9D8B /* CoreOnly */,
 				2AF374C471011BDD19011A8E305B026A /* Support Files */,
 			);
+			name = Firebase;
 			path = Firebase;
 			sourceTree = "<group>";
 		};
@@ -1491,6 +1488,7 @@
 				E06000EC18D8083EA2D0EAA49B1844E9 /* Support Files */,
 				FAE68ABE1EE0C6DFC95FD6EA413F85AE /* UserDefaults */,
 			);
+			name = GoogleUtilities;
 			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
@@ -1504,6 +1502,7 @@
 				93A1DC6D81F910BAB8D99B00BA582618 /* OPTLYUserProfileServiceBuilder.m */,
 				E9B06B6C681925C54D41E6CCA9E87516 /* Support Files */,
 			);
+			name = OptimizelySDKUserProfileService;
 			path = OptimizelySDKUserProfileService;
 			sourceTree = "<group>";
 		};
@@ -1531,6 +1530,7 @@
 				A68DCEF784F80EA0538F7A54CD505FA0 /* OPTLYEventDispatcherBuilder.m */,
 				6913B1310133AB424B7489C5A01C5670 /* Support Files */,
 			);
+			name = OptimizelySDKEventDispatcher;
 			path = OptimizelySDKEventDispatcher;
 			sourceTree = "<group>";
 		};
@@ -1549,6 +1549,7 @@
 				19517020BB3EBB1658D959739E095BD8 /* Frameworks */,
 				6B03DABFBA48C1B5B636719F95F006E3 /* Support Files */,
 			);
+			name = FirebaseABTesting;
 			path = FirebaseABTesting;
 			sourceTree = "<group>";
 		};
@@ -1562,6 +1563,7 @@
 				D9CDBD0DFE73AF364B2F1EE5EA808DCB /* OPTLYDatafileManagerBuilder.m */,
 				6DF3111942C88760D7697718BA392E2B /* Support Files */,
 			);
+			name = OptimizelySDKDatafileManager;
 			path = OptimizelySDKDatafileManager;
 			sourceTree = "<group>";
 		};
@@ -1676,6 +1678,7 @@
 				8BA21739242E457450940DA12D4B0B73 /* Frameworks */,
 				DBA9F8A3AECE6882C4BF87C6EBC38983 /* Support Files */,
 			);
+			name = GoogleAppMeasurement;
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
@@ -1783,6 +1786,7 @@
 				17FD596B186AC2B71CDAF87147D96090 /* OPTLYManagerBuilder.m */,
 				6E01323298FF2DEFB399933CA773AA14 /* Support Files */,
 			);
+			name = OptimizelySDKShared;
 			path = OptimizelySDKShared;
 			sourceTree = "<group>";
 		};
@@ -1896,6 +1900,7 @@
 				0900F3179A92D58FACAFC803B011B48A /* Wrappers.pbobjc.m */,
 				A5C03FA202298369B818AB16FFF208C5 /* Support Files */,
 			);
+			name = Protobuf;
 			path = Protobuf;
 			sourceTree = "<group>";
 		};
@@ -1905,6 +1910,7 @@
 				93E17CD3FFD61FB77271BBAE0B350BC0 /* Frameworks */,
 				9EDECF15C337A3D774B62DB2E9FF247A /* Support Files */,
 			);
+			name = FirebaseRemoteConfig;
 			path = FirebaseRemoteConfig;
 			sourceTree = "<group>";
 		};
@@ -1981,6 +1987,7 @@
 				1F54CFB175EBB6E81B87D1C210757BE5 /* FIRVersion.m */,
 				7394D71F6AFE4757D40E65502F059918 /* Support Files */,
 			);
+			name = FirebaseCore;
 			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
@@ -2085,6 +2092,7 @@
 				F0C38F348F15698080834D14F84EFFA1 /* Frameworks */,
 				5F0CDE45D96E0D2F93AD1E743D4128C5 /* Support Files */,
 			);
+			name = FirebaseInstanceID;
 			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
@@ -2207,6 +2215,7 @@
 				D80415331E2F684167F6AAA70EC52E0E /* OPTLYVariationVariable.m */,
 				5F79E6D5405E13C4A1FB312973BE25A0 /* Support Files */,
 			);
+			name = OptimizelySDKCore;
 			path = OptimizelySDKCore;
 			sourceTree = "<group>";
 		};
@@ -2233,6 +2242,7 @@
 				15F4DAFF2B7F60B013AE8B972363B9E5 /* encode */,
 				08D5EE9047F230AD1E537FC4BE9B7939 /* Support Files */,
 			);
+			name = nanopb;
 			path = nanopb;
 			sourceTree = "<group>";
 		};
@@ -2782,18 +2792,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					DFA01D0B8F5858F4A0646B4E3F82E9A1 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -3438,9 +3442,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		203D28AA0020ABA32936E345627A944B /* Debug */ = {
+		04F1FBEAB03781311284A74C747BDF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
+			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3451,27 +3455,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
-				PRODUCT_MODULE_NAME = FirebaseCore;
-				PRODUCT_NAME = FirebaseCore;
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2600C2C40055F8882C36AAFC179BBEEA /* Debug */ = {
+		0E701E4BE1B870D8375943D9CAF70F47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
+			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3482,23 +3486,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKShared;
-				PRODUCT_NAME = OptimizelySDKShared;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
+				PRODUCT_NAME = OptimizelySDKiOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		2E2C6AFFE216C3B112ABF3DCEDD79683 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3547,9 +3552,9 @@
 			};
 			name = Debug;
 		};
-		319A2EB4069660EF2ADDCCD215055184 /* Debug */ = {
+		38819A9B5ACA47FFD1901F17318A9DC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
+			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3560,23 +3565,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Reversi/Reversi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Reversi/Reversi-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Reversi/Reversi.modulemap";
-				PRODUCT_MODULE_NAME = Reversi;
-				PRODUCT_NAME = Reversi;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
+				PRODUCT_MODULE_NAME = FirebaseCore;
+				PRODUCT_NAME = FirebaseCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		3D6E09DA53D625800DDD9981F40AE2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3591,6 +3597,68 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		4240D364BEB8D8A506DC2A2FC4DFE35B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
+				PRODUCT_MODULE_NAME = FirebaseCore;
+				PRODUCT_NAME = FirebaseCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5234098D408953D5057A12C7EE95A944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKShared/OptimizelySDKShared.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKShared;
+				PRODUCT_NAME = OptimizelySDKShared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		569441FA25332725E9AD3F039ACF05DB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3658,9 +3726,9 @@
 			};
 			name = Debug;
 		};
-		5A498FC9561D5F013715EFD5F70BAAA2 /* Debug */ = {
+		5DE4918B42BF23DEF1F8F04408CA92BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3671,49 +3739,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_MODULE_NAME = nanopb;
-				PRODUCT_NAME = nanopb;
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5BEFE91E6B856013E859E370D53B3114 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
-				PRODUCT_NAME = OptimizelySDKDatafileManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3747,9 +3784,9 @@
 			};
 			name = Debug;
 		};
-		6CCD34FB6E90906A3EBBECE0C1B90F35 /* Release */ = {
+		6EC40ACFC7F711D5C0CC11AB3083838E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3760,91 +3797,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
-				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
+				PRODUCT_NAME = OptimizelySDKDatafileManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7105A871B7B61926357CABC8D731B960 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
-				PRODUCT_NAME = OptimizelySDKiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		712D49EC178E303C88D68ED7AFBB653C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
-				PRODUCT_MODULE_NAME = GoogleUtilities;
-				PRODUCT_NAME = GoogleUtilities;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7336367687DEB1D65DF4E0FDC564C6EE /* Release */ = {
+		700C7873EB64834AE7C7E40E250133C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3855,55 +3828,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_MODULE_NAME = nanopb;
-				PRODUCT_NAME = nanopb;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKUserProfileService;
+				PRODUCT_NAME = OptimizelySDKUserProfileService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		7365AEB4C144C5980FC73FAE04666348 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		762502210AA7A87021EC24C94A84A928 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3973,9 +3915,9 @@
 			};
 			name = Debug;
 		};
-		7FE5BD1944188A1F8DAF3F0AD4AAAE16 /* Debug */ = {
+		80C6CBCEEE473450406ABCDF957EE8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3986,27 +3928,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
-				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
+				PRODUCT_NAME = OptimizelySDKiOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8E5CA3D6D2E60763A508A01AB44ED985 /* Release */ = {
+		8C49EF8C0C0E0F9ED9FF0C629AA6006E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
+			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4017,18 +3959,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
-				PRODUCT_MODULE_NAME = GoogleUtilities;
-				PRODUCT_NAME = GoogleUtilities;
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4047,6 +3989,38 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9F50B3BB5CC34A6E9AA40A8502929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKCore;
+				PRODUCT_NAME = OptimizelySDKCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -4084,9 +4058,9 @@
 			};
 			name = Release;
 		};
-		A3BDBD6A19D0B6DEE85AF5967D7E1262 /* Release */ = {
+		AA0F54790E667485879E0C67B8AAB09A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
+			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4097,18 +4071,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Reversi/Reversi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reversi/Reversi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
-				PRODUCT_NAME = OptimizelySDKDatafileManager;
+				MODULEMAP_FILE = "Target Support Files/Reversi/Reversi.modulemap";
+				PRODUCT_MODULE_NAME = Reversi;
+				PRODUCT_NAME = Reversi;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4175,7 +4149,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -4193,9 +4167,9 @@
 			};
 			name = Debug;
 		};
-		B5D412CE749C83DF9370D24527D624B2 /* Debug */ = {
+		AE333A26B313F71E9B08A27C718EE098 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
+			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4206,25 +4180,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKCore;
-				PRODUCT_NAME = OptimizelySDKCore;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
+				PRODUCT_NAME = OptimizelySDKEventDispatcher;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		C72ABB5398B4353B37AEDC230298A2EA /* Release */ = {
+		B83D91826C87D848FB8914A9A18F55BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB96934FB70DED6326F24506BF8AD6A /* OptimizelySDKDatafileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKDatafileManager/OptimizelySDKDatafileManager.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKDatafileManager;
+				PRODUCT_NAME = OptimizelySDKDatafileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCDC693E742029F9CB9B8DC035B51A4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1E9C4FEEC4D414A244AF9BAE6492B2E /* Reversi.xcconfig */;
 			buildSettings = {
@@ -4250,140 +4256,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD10AD52F345275090095EE538957D51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5B75D0278BCECC451C2D3FA92AAB848 /* FirebaseCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/FirebaseCore/FirebaseCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/FirebaseCore/FirebaseCore.modulemap";
-				PRODUCT_MODULE_NAME = FirebaseCore;
-				PRODUCT_NAME = FirebaseCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CDFFA8334B6F69E3EB017DD100A9DF16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKCore;
-				PRODUCT_NAME = OptimizelySDKCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DA392CC3E05A519A36B26234C7E7AAE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
-				PRODUCT_MODULE_NAME = Protobuf;
-				PRODUCT_NAME = Protobuf;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E0D593618D84A51FC7C3320252BC6DB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E51A74B6EE208879905EAB006172344E /* OptimizelySDKiOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKiOS/OptimizelySDKiOS.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKiOS;
-				PRODUCT_NAME = OptimizelySDKiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EF1A2F38A223C7E99F08470F89C933B4 /* Debug */ = {
+		BF55E4409769DC6ED7F157982BA5F9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
 			buildSettings = {
@@ -4407,7 +4285,134 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB98DD7E64675E890DA6D567EA36ED32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26DA10D62F8FC96911B8487B77B523DC /* GoogleUtilities.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleUtilities/GoogleUtilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleUtilities/GoogleUtilities.modulemap";
+				PRODUCT_MODULE_NAME = GoogleUtilities;
+				PRODUCT_NAME = GoogleUtilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DFDFD7912DAFB501D63B7F5533B3B59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE6303FC10905BF090A591A1715F690 /* Protobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Protobuf/Protobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Protobuf/Protobuf.modulemap";
+				PRODUCT_MODULE_NAME = Protobuf;
+				PRODUCT_NAME = Protobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F4273ED77974EA11DB083061A7E316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED42C0929B002468EF25472117E5107 /* OptimizelySDKEventDispatcher.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKEventDispatcher/OptimizelySDKEventDispatcher.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKEventDispatcher;
+				PRODUCT_NAME = OptimizelySDKEventDispatcher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E392D1820A0AACED2568117E29D4000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A626EB620641BF4E6412E47D17D2D2 /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/nanopb-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4467,13 +4472,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		F9E7607B7CF25B9394A44D94B2A86524 /* Release */ = {
+		F4D16AD80CFB3ADD037CA4877AFD9D54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5C46D333B686617924F08B098E089D3 /* OptimizelySDKShared.xcconfig */;
 			buildSettings = {
@@ -4497,7 +4503,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4505,9 +4511,9 @@
 			};
 			name = Release;
 		};
-		FD489CEBF29312C6CDD74BBB80F85DDF /* Release */ = {
+		FB4E51CBDD9207346D91D40BB1548D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 644C963B6B0B5FDC1E18C64C09F4FBB6 /* OptimizelySDKUserProfileService.xcconfig */;
+			baseConfigurationReference = 6FC818E82405597C6D914B071EBCFDCC /* OptimizelySDKCore.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4518,24 +4524,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OptimizelySDKUserProfileService/OptimizelySDKUserProfileService.modulemap";
-				PRODUCT_MODULE_NAME = OptimizelySDKUserProfileService;
-				PRODUCT_NAME = OptimizelySDKUserProfileService;
+				MODULEMAP_FILE = "Target Support Files/OptimizelySDKCore/OptimizelySDKCore.modulemap";
+				PRODUCT_MODULE_NAME = OptimizelySDKCore;
+				PRODUCT_NAME = OptimizelySDKCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		FE544ABC1F0D3574FD87D2FEBA7FAF20 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4556,8 +4561,8 @@
 		11D4E1CA8C27085987FAC149DE6E145B /* Build configuration list for PBXNativeTarget "nanopb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A498FC9561D5F013715EFD5F70BAAA2 /* Debug */,
-				7336367687DEB1D65DF4E0FDC564C6EE /* Release */,
+				E392D1820A0AACED2568117E29D4000A /* Debug */,
+				8C49EF8C0C0E0F9ED9FF0C629AA6006E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4565,8 +4570,8 @@
 		1EA6E0A70AB38EFE7044A936E9C9AD26 /* Build configuration list for PBXNativeTarget "OptimizelySDKUserProfileService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF1A2F38A223C7E99F08470F89C933B4 /* Debug */,
-				FD489CEBF29312C6CDD74BBB80F85DDF /* Release */,
+				BF55E4409769DC6ED7F157982BA5F9A5 /* Debug */,
+				700C7873EB64834AE7C7E40E250133C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4583,8 +4588,8 @@
 		3C922E83DCAFB6909700C5FDDEF9F640 /* Build configuration list for PBXNativeTarget "OptimizelySDKShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2600C2C40055F8882C36AAFC179BBEEA /* Debug */,
-				F9E7607B7CF25B9394A44D94B2A86524 /* Release */,
+				5234098D408953D5057A12C7EE95A944 /* Debug */,
+				F4D16AD80CFB3ADD037CA4877AFD9D54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4592,8 +4597,8 @@
 		432747CE291293F1A172C4AD0BEE1710 /* Build configuration list for PBXNativeTarget "FirebaseCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				203D28AA0020ABA32936E345627A944B /* Debug */,
-				CD10AD52F345275090095EE538957D51 /* Release */,
+				4240D364BEB8D8A506DC2A2FC4DFE35B /* Debug */,
+				38819A9B5ACA47FFD1901F17318A9DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4646,8 +4651,8 @@
 		7ADC67E497AC27F95EABBDC158681875 /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7365AEB4C144C5980FC73FAE04666348 /* Debug */,
-				DA392CC3E05A519A36B26234C7E7AAE2 /* Release */,
+				5DE4918B42BF23DEF1F8F04408CA92BE /* Debug */,
+				DFDFD7912DAFB501D63B7F5533B3B59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4655,8 +4660,8 @@
 		8A5D98EBD8CCF079483D101C98BCAEF2 /* Build configuration list for PBXNativeTarget "Reversi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				319A2EB4069660EF2ADDCCD215055184 /* Debug */,
-				C72ABB5398B4353B37AEDC230298A2EA /* Release */,
+				BCDC693E742029F9CB9B8DC035B51A4A /* Debug */,
+				AA0F54790E667485879E0C67B8AAB09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4664,8 +4669,8 @@
 		ADFF60B9CCE0BF3E101F8FF6470A78D5 /* Build configuration list for PBXNativeTarget "OptimizelySDKCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5D412CE749C83DF9370D24527D624B2 /* Debug */,
-				CDFFA8334B6F69E3EB017DD100A9DF16 /* Release */,
+				FB4E51CBDD9207346D91D40BB1548D35 /* Debug */,
+				9B9F50B3BB5CC34A6E9AA40A8502929A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4673,8 +4678,8 @@
 		BA4637EC59D6853F63340E448D74CC04 /* Build configuration list for PBXNativeTarget "OptimizelySDKEventDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FE5BD1944188A1F8DAF3F0AD4AAAE16 /* Debug */,
-				6CCD34FB6E90906A3EBBECE0C1B90F35 /* Release */,
+				AE333A26B313F71E9B08A27C718EE098 /* Debug */,
+				E0F4273ED77974EA11DB083061A7E316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4691,8 +4696,8 @@
 		C078B20C55DA17E319D298986C4FF9DA /* Build configuration list for PBXNativeTarget "OptimizelySDKDatafileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BEFE91E6B856013E859E370D53B3114 /* Debug */,
-				A3BDBD6A19D0B6DEE85AF5967D7E1262 /* Release */,
+				6EC40ACFC7F711D5C0CC11AB3083838E /* Debug */,
+				B83D91826C87D848FB8914A9A18F55BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4718,8 +4723,8 @@
 		EA7C3E4D70919821DE886937A1D17B23 /* Build configuration list for PBXNativeTarget "OptimizelySDKiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0D593618D84A51FC7C3320252BC6DB2 /* Debug */,
-				7105A871B7B61926357CABC8D731B960 /* Release */,
+				80C6CBCEEE473450406ABCDF957EE8A9 /* Debug */,
+				0E701E4BE1B870D8375943D9CAF70F47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4727,8 +4732,8 @@
 		F01C28344C9807F081574241D00F2576 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				712D49EC178E303C88D68ED7AFBB653C /* Debug */,
-				8E5CA3D6D2E60763A508A01AB44ED985 /* Release */,
+				04F1FBEAB03781311284A74C747BDF49 /* Debug */,
+				CB98DD7E64675E890DA6D567EA36ED32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
