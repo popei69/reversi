@@ -104,7 +104,7 @@ myObject
     }
 ```
 
-Read more about how to implement [Reversi for Firebase](/Docs/Optimizely.md)
+Read more about how to implement [Reversi for Optimizely](/Docs/Optimizely.md)
 
 ## How does it work?
 
@@ -130,13 +130,12 @@ label.addVariation("text_variation", for: String.self) { label, value in
 There is no limit to the number of variations and their access
 
 ```swift
-label
-    label.addVariation("text_variation", for: String.self) { label, value in
-        label.text = variationText
-    }
-    .addFeatureFlag("font_variation") { label in
-        label.font = UIFont.boldSystemFont(ofSize: 14)
-    }
+label.addVariation("text_variation", for: String.self) { label, value in
+    label.text = variationText
+}
+.addFeatureFlag("font_variation") { label in
+    label.font = UIFont.boldSystemFont(ofSize: 14)
+}
 
 // button color
 button.addFeatureFlag("button_variation") { button in
