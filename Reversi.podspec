@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Reversi'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'An A/B Testing framework written in Swift.'
   s.description      = <<-DESC
 Every iOS app should be able to implement A/B test without only relying on external services.
@@ -23,7 +23,7 @@ Reversi is an open source A/B Testing framework written in Swift to keep a clean
   s.social_media_url = 'https://twitter.com/BenoitPasquier_'
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
-  s.source_files = 'Reversi/Classes/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'Reversi' => ['Reversi/Assets/*.png']

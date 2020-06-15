@@ -6,6 +6,7 @@
 )](https://developer.apple.com/swift)
 [![CI Status](https://img.shields.io/travis/popei69/reversi.svg?style=flat)](https://travis-ci.org/popei69/reversi)
 [![Version](https://img.shields.io/cocoapods/v/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
+[![Swift Package Manager compatible](https://img.shields.io/badge/swiftpm-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Reversi.svg?style=flat)](https://cocoapods.org/pods/Reversi)
 
@@ -153,7 +154,19 @@ Since each experiment directly affects UI elements, variations are only executed
 
 ## Installation
 
-### Cocoapods
+### Swift Package Manager
+
+```
+let package = Package(
+    ...
+    dependencies: [
+        .package(url: "https://github.com/popei69/reversi.git", from: "1.1.0")
+    ],
+    ...
+)
+```
+
+### CocoaPods
 
 Reversi is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:

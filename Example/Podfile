@@ -6,7 +6,3 @@ target 'Reversi_Example' do
   pod 'Firebase/RemoteConfig'
   pod 'OptimizelySDKiOS'
 end
-
-target 'Reversi_Tests' do 
-  pod 'Reversi', :path => '../'
-end

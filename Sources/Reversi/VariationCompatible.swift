@@ -7,6 +7,7 @@
 //
 
 import class Foundation.NSObject
+import class Foundation.DispatchQueue
 
 public protocol VariationCompatible {
     associatedtype VariationType

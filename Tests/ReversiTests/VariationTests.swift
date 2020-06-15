@@ -7,17 +7,16 @@
 //
 
 import XCTest
-import Reversi
+@testable import Reversi
 
 class VariationTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    
+    static var allTests = [
+        ("testCreateVariant", testCreateVariant),
+        ("testVariantExecuteWithValue", testVariantExecuteWithValue),
+        ("testCreateFeatureVariation", testCreateFeatureVariation),
+        ("testFeatureFlagExecute", testFeatureFlagExecute)
+    ]
 
     func testCreateVariant() {
         
