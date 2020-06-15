@@ -6,6 +6,9 @@
 //  Copyright © 2019 Benoit PASQUIER. All rights reserved.
 //
 
+import class Foundation.NSObject
+import class Foundation.DispatchQueue
+
 public enum VariationType {
     case featureFlag
     case variant

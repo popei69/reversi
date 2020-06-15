@@ -7,11 +7,18 @@
 //
 
 import XCTest
-import Reversi
+@testable import Reversi
 
-class ReversiServiceTests: XCTestCase {
+final class ReversiServiceTests: XCTestCase {
     
     fileprivate var configuration: MockConfiguration!
+    
+    
+    static var allTests = [
+        ("testVariationWithNoConfig", testVariationWithNoConfig),
+        ("testValidExperiment", testValidExperiment),
+        ("testValidFeatureFlag", testValidFeatureFlag),
+    ]
 
     override func setUp() {
         super.setUp()
@@ -36,8 +43,8 @@ class ReversiServiceTests: XCTestCase {
         let expectedValue = true
         configuration.experiments[key] = expectedValue
         
-        let label = UILabel()
-        label.addVariation(key, for: Bool.self) { label, value in
+        let object = NSObject()
+        object.addVariation(key, for: Bool.self) { _, value in
             XCTAssertEqual(expectedValue, value)
             expectation.fulfill()
         }   
@@ -52,25 +59,13 @@ class ReversiServiceTests: XCTestCase {
         let expectedValue = true
         configuration.experiments[key] = expectedValue
         
-        let label = UILabel()
-        label.addFeatureFlag(key) { _ in
+        let object = NSObject()
+        object.addFeatureFlag(key) { _ in
             expectation.fulfill()
         }   
         
         wait(for: [expectation], timeout: 2.0)
     }
-    
-//    func testServiceConfigured() {
-//        
-//        // given reversi service is already configured
-//        // expected to not be able to reconfigure 
-//        do {
-//            try ReversiService.shared.configure(with: configuration)
-//            XCTAssert(false, "Reversi is already configured, Reversi shouldn through error")
-//        } catch {
-//            XCTAssert(true)
-//        }
-//    }
 
 }
 
