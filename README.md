@@ -197,7 +197,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Author
 
-Contanct me [@BenoitPasquier](https://twitter.com/benoitpasquier_)
+Contact me on [Twitter](https://twitter.com/benoitpasquier_)
 
 ## Contributing
 
